@@ -18,7 +18,7 @@ import com.appmanager.qa.helperclasses.LoggerHelper;
 import com.google.api.services.gmail.Gmail;
 import com.relevantcodes.extentreports.ExtentTest;
 
-public class UsersPage extends TestBase {
+public class AdminUsersPage extends TestBase {
 
 	private WebDriver driver;
 	private ExtentTest logger;
@@ -83,7 +83,7 @@ public class UsersPage extends TestBase {
 	WebElement searchButton; 
 	
 	// Initialize page factory
-	public UsersPage(WebDriver driver, ExtentTest logger) {
+	public AdminUsersPage(WebDriver driver, ExtentTest logger) {
 		this.driver = driver;
 		this.logger = logger;
 		commonActions = new CommonActions(driver, logger);
