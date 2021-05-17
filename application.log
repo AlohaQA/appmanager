@@ -7214,3 +7214,158 @@ Session ID: b695babd8776fbd8236a4cad944d8f86
 2021-04-16 21:34:50,113 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2021-04-16 21:34:50,114 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2021-04-16 21:34:50,114 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/tushar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-04-19 20:08:10,525  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:08:10,709  INFO [main] LoginPageTest:41 - Logo displays at Home Page 
+2021-04-19 20:08:22,377  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:08:24,352  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:08:52,743  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:08:54,448  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:08:54,459  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-04-19 20:09:06,245  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:09:07,540  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:09:07,555  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-04-19 20:09:21,208  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:09:22,509  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:09:35,768  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:09:35,892  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea21f5ba7e38debc8e014cbc8742f47)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-04-19 20:09:36,748  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:09:49,347  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:09:50,580  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:09:50,581  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:10:21,405  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:10:22,636  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:10:22,638  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:10:59,986  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:10:59,987  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:11:00,043  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (06626330ef5981ab93487b62a4f5c1b9)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-04-19 20:11:00,911  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:13:35,010  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:13:35,011  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:13:55,754  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="login-options"]//a[@href="/Account/ForgotPassword"]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-MacBook-Air.local', ip: '2402:3a80:134f:600f:bd42:fe18:ca9c:16c3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:51886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed783eecf5957374bca6f81d590e9a59
+*** Element info: {Using=xpath, value=//div[@class="login-options"]//a[@href="/Account/ForgotPassword"]}
+2021-04-19 20:13:55,754  INFO [main] LoginPage:73 - Forgot Password link is not functional
+2021-04-19 20:13:55,754  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:14:42,678  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:14:42,679  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:14:42,748  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (408ddb3cd30eea9a576881e26eb6b337)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-04-19 20:14:44,209  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:14:44,274  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (408ddb3cd30eea9a576881e26eb6b337)] -> xpath: //div[@class="form-group"]//input[@id="Email"]] present on UI is:	true
+2021-04-19 20:14:44,525  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (408ddb3cd30eea9a576881e26eb6b337)] -> xpath: //div//input[@type="submit"]] present on UI is:	true
+2021-04-19 20:14:45,363  INFO [main] CommonActions:204 - Title is:	Password Reset Started. - Openmethods
+2021-04-19 20:14:45,418  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (408ddb3cd30eea9a576881e26eb6b337)] -> xpath: //div[@class="login-options"]//a[@href="/Account/Login"]] present on UI is:	true
+2021-04-19 20:14:46,836  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-04-19 20:15:20,633  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:15:22,309  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:15:22,310  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:15:22,312  INFO [main] ExternalLogins:71 - Initialized page factory of Home Page.
+2021-04-19 20:15:22,316  INFO [main] CRMAuthorizationPage:52 - Initialized page factory of CRMAuthorization Page.
+2021-04-19 20:15:42,386  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id="navbarDropdown"]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-MacBook-Air.local', ip: '2402:3a80:134f:600f:bd42:fe18:ca9c:16c3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:51985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 454d646c32b38a85ba8f90234278c4d3
+*** Element info: {Using=xpath, value=//a[@id="navbarDropdown"]}
+2021-04-19 20:15:42,387  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-04-19 20:16:54,672  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:16:56,377  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:16:56,379  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:16:56,380  INFO [main] ExternalLogins:71 - Initialized page factory of Home Page.
+2021-04-19 20:16:56,382  INFO [main] CRMAuthorizationPage:52 - Initialized page factory of CRMAuthorization Page.
+2021-04-19 20:19:56,935  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:19:58,663  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:20:32,904  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:20:34,140  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:20:45,229  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:20:46,294  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:20:46,295  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:21:17,914  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:21:19,419  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:21:19,420  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:21:53,805  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:21:53,810  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:21:53,924  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a2efbe231b4244e129ad72ca74dfe0c1)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-04-19 20:21:54,722  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-04-19 20:22:06,800  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:22:07,952  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:22:07,954  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:22:07,958  INFO [main] ExternalLogins:71 - Initialized page factory of Home Page.
+2021-04-19 20:22:07,962  INFO [main] CRMAuthorizationPage:52 - Initialized page factory of CRMAuthorization Page.
+2021-04-19 20:22:28,009  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id="navbarDropdown"]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-MacBook-Air.local', ip: '2402:3a80:134f:600f:817b:2b50:5a43:de77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:52641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 361ba4e3e47cff02010777b6e4a9b9bb
+*** Element info: {Using=xpath, value=//a[@id="navbarDropdown"]}
+2021-04-19 20:22:28,010  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-04-19 20:23:22,680  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:23:24,028  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:23:24,029  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:23:24,030  INFO [main] ExternalLogins:71 - Initialized page factory of Home Page.
+2021-04-19 20:23:24,031  INFO [main] CRMAuthorizationPage:52 - Initialized page factory of CRMAuthorization Page.
+2021-04-19 20:23:44,061  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id="navbarDropdown"]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-MacBook-Air.local', ip: '2402:3a80:134f:600f:817b:2b50:5a43:de77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:52669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 592966931a8590050f78d83842fa5e31
+*** Element info: {Using=xpath, value=//a[@id="navbarDropdown"]}
+2021-04-19 20:23:44,062  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-04-19 20:44:29,897  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:44:31,394  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 20:44:31,445  INFO [main] LoginPageTest:51 - Invalid login attempt.
+2021-04-19 20:44:45,008  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 20:45:10,283  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 23:04:55,238  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 23:04:55,374  INFO [main] LoginPageTest:41 - Logo displays at Home Page 
+2021-04-19 23:05:47,643  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 23:05:49,579  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 23:05:49,612  INFO [main] LoginPageTest:51 - Invalid login attempt.
+2021-04-19 23:06:36,484  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 23:06:38,265  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 23:06:38,273  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-04-19 23:12:13,795  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 23:12:14,688  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 23:12:14,689  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-04-19 23:12:48,921 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2021-04-19 23:12:48,923 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2021-04-19 23:12:48,925 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-04-19 23:12:48,927 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-04-19 23:12:48,928 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/tushar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-04-19 23:12:49,413 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2021-04-19 23:12:49,414 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2021-04-19 23:12:49,414 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-04-19 23:12:49,415 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-04-19 23:12:49,415 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/tushar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-04-19 23:28:01,543  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-04-19 23:36:25,303  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-17 23:28:55,035  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-17 23:28:55,181  INFO [main] LoginPageTest:41 - Logo displays at Home Page 
+2021-05-17 23:29:06,710  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-17 23:29:08,573  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-05-17 23:29:08,622  INFO [main] LoginPageTest:51 - Invalid login attempt.
+2021-05-17 23:29:19,808  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-17 23:29:21,468  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-05-17 23:29:21,482  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-05-17 23:29:34,091  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-17 23:29:35,251  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-05-17 23:29:35,262  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-05-17 23:29:49,474  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-17 23:30:30,720  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-05-17 23:30:46,709  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-17 23:30:46,806  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d8559721ba719071f9b96b9437079175)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-05-17 23:30:48,050  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
