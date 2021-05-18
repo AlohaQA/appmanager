@@ -26,7 +26,7 @@ public class ExternalLogins extends TestBase {
 	Logger log = LoggerHelper.getLogger(ExternalLogins.class);
 
 	// Page factory for External Logins Page
-	@FindBy(xpath = "//div[@class=\"col-sm-12\"]//h6")
+	@FindBy(xpath = "//h6[@class=\"font-weight-bold\"]")
 	WebElement ExternalLoginUIText1;
 
 	@FindBy(xpath = "//div[@class=\"col-sm-12\"]//span")
@@ -96,23 +96,39 @@ public class ExternalLogins extends TestBase {
 
 	public void clickOnCrmAuthorizationButton() {
 		commonActions.waitFor(3000);
-		commonActions.isElementEnabled(AuthorisedBtn);
-		commonActions.click(AuthorisedBtn);
+		if(commonActions.isElementPresent(AuthorisedBtn)){
+			commonActions.click(AuthorisedBtn);
+
+		}
+		else{
+			commonActions.isElementPresent(ReAuthorisedBtn);
+			commonActions.isElementEnabled(AuthorisedBtn);
+			commonActions.click(AuthorisedBtn);
+		}
 
 	}
 
 		public void clickOnCrmReAuthorizationButton () {
 			commonActions.waitFor(3000);
-			commonActions.isElementPresent(ReAuthorisedBtn);
-			commonActions.click(ReAuthorisedBtn);
+			if(commonActions.isElementPresent(ReAuthorisedBtn)){
+				commonActions.click(ReAuthorisedBtn);
+			}
+			else{
+				ExternalLogins.this.clickOnCrmAuthorizationButton();
+			}
+
 
 		}
 
 		public String clickOnCrmRemoveAuthorization () {
 			commonActions.waitFor(3000);
-			commonActions.isElementPresent(Remove);
-			commonActions.click(Remove);
-			commonActions.isElementPresent(crmRemoveSuccessMsg);
+			if(commonActions.isElementPresent(Remove)) {
+
+				commonActions.click(Remove);
+			}
+			else{
+				ExternalLogins.this.clickOnCrmReAuthorizationButton();
+			}
 			return crmRemoveSuccessMsg.getText();
 		}
 

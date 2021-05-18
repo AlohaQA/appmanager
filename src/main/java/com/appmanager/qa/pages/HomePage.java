@@ -30,7 +30,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//span[contains(text(),\"OPENMETHODSQA\")]")
 	WebElement customerTitle;
 
-	@FindBy(xpath = "//img[@src=\"/Content/images/logo-om-cloud-manager.png\" and @alt=\"OpenMethods Application Manager\"]")
+	@FindBy(xpath = "//img[@src=\"/Content/images/logo-om-cloud.png\" or @alt=\"Open Method Logo\"]")
 	WebElement logoImageAtHomePage;
 
 	@FindBy(xpath = "//img[@src=\"/Content/images/btn-menu-close2.png\"]")

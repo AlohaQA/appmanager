@@ -61,7 +61,7 @@ public class ForgotPasswordTest extends TestBase {
         SoftAssert softAssert = new SoftAssert();
         loginPage.clickOnForgotPassword();
         String url1 = forgotPassword.submitEmail();
-        softAssert.assertEquals(url1,"Password Reset Started. - Openmethods","Not able to submit email for forgot password");
+        softAssert.assertEquals(url1,"Forgot your password? - Openmethods","Not able to submit email for forgot password");
         String url2 = forgotPassword.returnToLoginPage();
         softAssert.assertEquals(url2,"OpenMethods Login - Openmethods","Return To Logoin url is not functional ");
         softAssert.assertAll();

@@ -24,7 +24,7 @@ public class CRMAuthorizationPage extends TestBase {
 
     // Page factory for CRMAuthorization Page
 
-    @FindBy(xpath = "//div[@class=\"col-sm-12\"]//h5")
+    @FindBy(xpath = "//div[@class=\"col-sm-12\"]//h5[@class=\"font-weight-bold\"]")
     WebElement crmLoginPageUIText1;
 
     @FindBy(xpath = "//div[@class=\"col-sm-12\"]//span")
