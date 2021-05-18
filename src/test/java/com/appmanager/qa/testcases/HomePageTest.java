@@ -42,42 +42,47 @@ public class HomePageTest extends TestBase {
 	}
 
 	@Test(priority=2)
-	public void verifyCustomerNameDisplays() {
+	public void verifyCustomerTitleIsDisplay() {
 		String Title = homePage.customerTitleAtHomePage();
 		Assert.assertEquals(Title, "OPENMETHODSQA_70");
 	}
 
 	@Test(priority=3)
-	public void verifyExternalLoginLink() {
+	public void verifyExternalLoginLinkIsFunctional() {
 	    url = homePage.clickOnExternalLoginLink();
 		Assert.assertEquals(url, "https://openmethodsqa_70.qa.openmethodscloud.com/Manage/ManageLogins", "Unable to navigate external login page ");
 	}
 	@Test(priority=4)
-	public void verifyResetPasswordLink() {
+	public void verifyResetPasswordLinkIsFunctional() {
 
 		url = homePage.clickOnResetPasswordLink();
 		Assert.assertEquals(url, "https://openmethodsqa_70.qa.openmethodscloud.com/Account/ResetUserPassword");
 	}
 	@Test(priority=5)
-	public void verifyAboutLink() {
+	public void verifyAboutLinkIsFunctional() {
 
 		homePage.clickOnAboutLink();
 	}
 
 	@Test(priority = 6)
-	public void verifyToggleTooltip(){
+	public void verifyToggleTooltipIsPresent(){
 
-		boolean flag = homePage.toggleTooltip();
-		Assert.assertTrue(flag,"Toggle tooltip is missing");
+		String ActualToolTip = homePage.toggleTooltip();
+		Assert.assertEquals(ActualToolTip,"Toggle Left Navigation.");
 	}
 
-	@Test(priority=7)
+	@Test(priority = 7)
+	public void verifyExpandCollapseBtnIsFunctional(){
+		homePage.clickOnExpandCollapseBtn();
+		homePage.clickOnExpandCollapseBtn();
+
+	}
+	@Test(priority=8)
 	public void verifyAppManagerLogout() {
 
 		url = homePage.logoutAppManager();
 		Assert.assertEquals(url, "https://openmethodsqa_70.qa.openmethodscloud.com/Account/Login", "Not logged out properly");
 	}
-	
 
 	@AfterMethod
 	public void teardown() {

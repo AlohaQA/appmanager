@@ -33,7 +33,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//img[@src=\"/Content/images/logo-om-cloud.png\" or @alt=\"Open Method Logo\"]")
 	WebElement logoImageAtHomePage;
 
-	@FindBy(xpath = "//img[@src=\"/Content/images/btn-menu-close2.png\"]")
+	@FindBy(xpath = "//span//img[@data-toggle=\"tooltip\"]")
 	WebElement expandCollapseIcon;
 
 	@FindBy(xpath = "//a[@id=\"navbarDropdown\"]")
@@ -118,9 +118,16 @@ public class HomePage extends TestBase {
 
 	}
 
-	public boolean toggleTooltip(){
-		return commonActions.isElementPresent(toggelTooltip);
+	public String toggleTooltip(){
+		commonActions.isElementPresent(toggelTooltip);
+		String tooltip = toggelTooltip.getAttribute("data-original-title");
+		return tooltip;
 
+	}
+
+	public void clickOnExpandCollapseBtn(){
+		commonActions.click(toggelTooltip);
+		commonActions.click(toggelTooltip);
 	}
 
 	public String logoutAppManager() {

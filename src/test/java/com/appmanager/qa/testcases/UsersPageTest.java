@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.appmanager.qa.base.TestBase;
-import com.appmanager.qa.pages.UsersPage;
+import com.appmanager.qa.pages.AdminUsersPage;
 import com.appmanager.qa.util.TestUtil;
 import com.appmanager.qa.pages.LoginPage;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -15,7 +15,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 public class UsersPageTest extends TestBase {
 
 	private LoginPage loginPage;
-	private UsersPage usersPage;
+	private AdminUsersPage usersPage;
 	private ExtentTest logger; 
 	private String s; 
 	
@@ -33,7 +33,7 @@ public class UsersPageTest extends TestBase {
 		initialization();
 		loginPage = new LoginPage(driver,logger);
 		loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		usersPage = new UsersPage(driver,logger);
+		usersPage = new AdminUsersPage(driver,logger);
 
 	}
 
