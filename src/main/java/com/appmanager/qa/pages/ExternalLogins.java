@@ -76,22 +76,31 @@ public class ExternalLogins extends TestBase {
 	}
 
 	public String externalLoginUIText1() {
+		commonActions.isElementPresent(ExternalLoginUIText1);
 		return ExternalLoginUIText1.getText();
 	}
 
 	public String externalLoginUIText2() {
+
+		commonActions.isElementPresent(ExternalLoginUIText2);
 		return ExternalLoginUIText2.getText();
 	}
 
 	public String accountTableUIColumn1() {
+
+		commonActions.isElementPresent(ExternalLoginUIText1);
 		return ExternalLoginTableColumn1.getText();
 	}
 
 	public String accountTableUIColumn2() {
-		return ExternalLoginTableColumn2.getText();
+
+		commonActions.isElementPresent(ExternalLoginTableColumn2);
+	return ExternalLoginTableColumn2.getText();
 	}
 
 	public String accountTableUIColumn3() {
+
+		commonActions.isElementPresent(ExternalLoginTableColumn3);
 		return ExternalLoginTableColumn3.getText();
 	}
 

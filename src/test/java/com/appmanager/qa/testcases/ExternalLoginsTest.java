@@ -46,7 +46,6 @@ public class ExternalLoginsTest extends TestBase {
     public void verifyExternalLoginUIText() {
         homePage.clickOnExternalLoginLink();
         SoftAssert softAssert = new SoftAssert();
-        //url = homePage.clickOnExternalLoginLink();
         String uiText1 = ExternalLogin.externalLoginUIText1();
         softAssert.assertEquals(uiText1,"Registered Logins");
         String uiText2 = ExternalLogin.externalLoginUIText2();
