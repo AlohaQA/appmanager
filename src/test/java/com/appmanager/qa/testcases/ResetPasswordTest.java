@@ -36,7 +36,7 @@ public class ResetPasswordTest extends TestBase {
     @Test(priority=1)
     public void verifyResetPasswordUIText() {
         SoftAssert softAssert = new SoftAssert();
-        url = homePage.clickOnResetPasswordLink();
+        homePage.clickOnResetPasswordLink();
         String uiText1 = ResetPassword.ResetPasswordUIText1();
         softAssert.assertEquals(uiText1,"Reset Password");
         String uiText2 = ResetPassword.ResetPasswordUIText2();
@@ -47,7 +47,7 @@ public class ResetPasswordTest extends TestBase {
     @Test(priority = 2)
     public void verifyNewPasswordFieldValidation(){
         SoftAssert softAssert = new SoftAssert();
-        url = homePage.clickOnResetPasswordLink();
+        homePage.clickOnResetPasswordLink();
         String validationError = ResetPassword.NewPasswordFieldValidationError();
         softAssert.assertEquals(validationError," The New Password field is required. ");
 
@@ -55,7 +55,7 @@ public class ResetPasswordTest extends TestBase {
     @Test(priority = 3)
     public void verifyConfirmPasswordFieldValidation(){
         SoftAssert softAssert = new SoftAssert();
-        url = homePage.clickOnResetPasswordLink();
+        homePage.clickOnResetPasswordLink();
         String validationError = ResetPassword.ConfirmPasswordFieldValidationError();
         softAssert.assertEquals(validationError," The password and confirmation password do not match. ");
 
@@ -63,7 +63,7 @@ public class ResetPasswordTest extends TestBase {
     @Test(priority = 4)
     public void verifyResetPasswordFunctionality(){
         SoftAssert softAssert = new SoftAssert();
-        url = homePage.clickOnResetPasswordLink();
+        homePage.clickOnResetPasswordLink();
         String validationError = ResetPassword.ResetPassword();
         softAssert.assertEquals(validationError," Your passsword has been reset successfully. ");
 
