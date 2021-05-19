@@ -44,8 +44,9 @@ public class ExternalLoginsTest extends TestBase {
 
     @Test(priority=1)
     public void verifyExternalLoginUIText() {
+        homePage.clickOnExternalLoginLink();
         SoftAssert softAssert = new SoftAssert();
-        url = homePage.clickOnExternalLoginLink();
+        //url = homePage.clickOnExternalLoginLink();
         String uiText1 = ExternalLogin.externalLoginUIText1();
         softAssert.assertEquals(uiText1,"Registered Logins");
         String uiText2 = ExternalLogin.externalLoginUIText2();
@@ -65,7 +66,7 @@ public class ExternalLoginsTest extends TestBase {
 
     @Test(priority=2)
     public void verifyCrmAuthorization(){
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         ExternalLogin.clickOnCrmAuthorizationButton();
         CRMAuthorization = ExternalLogin.crmLogin(prop.getProperty("crmUsername"), prop.getProperty("crmPassword"));
         String crmSuccessMsg = CRMAuthorization.successMessageForLogin();
@@ -76,7 +77,7 @@ public class ExternalLoginsTest extends TestBase {
     @Test(priority=3)
 
     public void verifyCrmReAuthorization(){
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         ExternalLogin.clickOnCrmReAuthorizationButton();
         CRMAuthorization = ExternalLogin.crmLogin(prop.getProperty("crmUsername"), prop.getProperty("crmPassword"));
         String crmSuccessMsg = CRMAuthorization.successMessageForLogin();
@@ -85,7 +86,7 @@ public class ExternalLoginsTest extends TestBase {
 
     @Test(priority=4)
     public void verifyRemoveCrmAuthorization(){
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         String s =  ExternalLogin.clickOnCrmRemoveAuthorization();
         Assert.assertEquals(s,"The external login was removed.");
     }

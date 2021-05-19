@@ -25,15 +25,15 @@ public class HomePage extends TestBase {
 
 	Logger log = LoggerHelper.getLogger(HomePage.class);
 
-	// Add Page factory for Home Page
+	// Page factory for Home Page
 
-	@FindBy(xpath = "//span[contains(text(),\"OPENMETHODSQA\")]")
+	@FindBy(xpath = "//span[contains(text(),\"OPENMETHODSQA_70\")]")
 	WebElement customerTitle;
 
-	@FindBy(xpath = "//img[@src=\"/Content/images/logo-om-cloud.png\" or @alt=\"Open Method Logo\"]")
+	@FindBy(xpath = "//a//img[@src=\"/Content/images/logo-om-cloud-manager.png\"]")
 	WebElement logoImageAtHomePage;
 
-	@FindBy(xpath = "//span//img[@data-toggle=\"tooltip\"]")
+	@FindBy(xpath = "//img[@src=\"/Content/images/btn-menu-open2.png\"]")
 	WebElement expandCollapseIcon;
 
 	@FindBy(xpath = "//a[@id=\"navbarDropdown\"]")
@@ -51,8 +51,6 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//div[@class=\"left-nav\"]")
 	WebElement LeftPanel;
 
-	@FindBy(xpath = "//span//img[@data-toggle=\"tooltip\"]")
-	WebElement toggelTooltip;
 	// Initialize page factory
 	public HomePage(WebDriver driver, ExtentTest logger) {
 		this.driver = driver;
@@ -66,6 +64,8 @@ public class HomePage extends TestBase {
 	}
 
 	public boolean homePageLogo() {
+		commonActions.isElementPresent(expandCollapseIcon);
+		commonActions.click(expandCollapseIcon);
 		return logoImageAtHomePage.isDisplayed();
 	}
 
@@ -119,15 +119,15 @@ public class HomePage extends TestBase {
 	}
 
 	public String toggleTooltip(){
-		commonActions.isElementPresent(toggelTooltip);
-		String tooltip = toggelTooltip.getAttribute("data-original-title");
+		commonActions.isElementPresent(expandCollapseIcon);
+		String tooltip = expandCollapseIcon.getAttribute("data-original-title");
 		return tooltip;
 
 	}
 
 	public void clickOnExpandCollapseBtn(){
-		commonActions.click(toggelTooltip);
-		commonActions.click(toggelTooltip);
+		commonActions.click(expandCollapseIcon);
+		commonActions.click(expandCollapseIcon);
 	}
 
 	public String logoutAppManager() {

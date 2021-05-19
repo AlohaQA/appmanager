@@ -20,7 +20,7 @@ public class LoginPage extends TestBase{
 	private BrowserHelper browserHelper;
 	Logger log = LoggerHelper.getLogger(LoginPage.class);
 
-	//Page factory add
+	//Login Page factory
 	@FindBy(xpath="//div[@class=\"form-group\"]//input[@name=\"Email\"]")
 	WebElement Email; 
 	

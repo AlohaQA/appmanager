@@ -43,7 +43,7 @@ public class CRMAuthorizationTest  extends TestBase {
     @Test(priority = 1)
     public void verifyCrmUIText()
     {
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         String str1 = CRMAuthorization.crmLoginPageUIText();
         Assert.assertEquals(str1,"CRM AuthorizationEnter Your CRM Credentials.");
@@ -53,7 +53,7 @@ public class CRMAuthorizationTest  extends TestBase {
     @Test(priority = 2)
     public void verifyCrmLoginWithValidUsernameInvalidPassword()
     {
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         CRMAuthorization = externalLogin.crmLogin(prop.getProperty("crmUsername"), prop.getProperty("invalidCrmPassword"));
         String crmLoginError = CRMAuthorization.invalidLoginErrorMessage();
@@ -63,7 +63,7 @@ public class CRMAuthorizationTest  extends TestBase {
     @Test(priority = 3)
     public void verifyCrmLoginWithInvalidUsernameInvalidPassword()
     {
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         CRMAuthorization = externalLogin.crmLogin(prop.getProperty("invalidCrmUsername"), prop.getProperty("invalidCrmPassword"));
         String crmLoginError = CRMAuthorization.invalidLoginErrorMessage();
@@ -72,7 +72,7 @@ public class CRMAuthorizationTest  extends TestBase {
     @Test(priority = 4)
     public void verifyCrmLoginWithInvalidUsernameValidPassword()
     {
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         CRMAuthorization = externalLogin.crmLogin(prop.getProperty("invalidCrmUsername"), prop.getProperty("crmPassword"));
         String crmLoginError = CRMAuthorization.invalidLoginErrorMessage();
@@ -82,7 +82,7 @@ public class CRMAuthorizationTest  extends TestBase {
     @Test(priority = 5)
     public void verifyCrmLoginWithEmptyUserName()
     {
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         externalLogin.emptyUsernameLogin();
         String crmLoginError = CRMAuthorization.emptyUsernameValidation();
@@ -92,7 +92,7 @@ public class CRMAuthorizationTest  extends TestBase {
     @Test(priority = 6)
     public void verifyCrmLoginWithEmptyPassword()
     {
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         externalLogin.emptyPassLogin();
         //CRMAuthorization = externalLogin.crmLogin(prop.getProperty("crmUsername"), prop.getProperty("empty"));
@@ -102,7 +102,7 @@ public class CRMAuthorizationTest  extends TestBase {
     @Test(priority = 7)
     public void verifyCrmLoginWithValidUsernameValidPassword()
     {
-        url = homePage.clickOnExternalLoginLink();
+        homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         CRMAuthorization = externalLogin.crmLogin(prop.getProperty("crmUsername"), prop.getProperty("crmPassword"));
         String crmSuccessMsg = CRMAuthorization.successMessageForLogin();
