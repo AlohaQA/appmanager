@@ -6811,3 +6811,24 @@ Session ID: 4d101fca0d8e38da4ed31a9e9b23e198
 2021-05-19 15:13:17,225  INFO [main] HomePage:60 - Initialized page factory of Home Page.
 2021-05-19 15:13:17,333  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (929a645daedbd8d13509af1f2f7c1b79)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
 2021-05-19 15:13:17,387  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (929a645daedbd8d13509af1f2f7c1b79)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-19 21:04:46,721  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-19 21:05:09,096  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:05:09,101  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:05:09,300  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3500980fef7d1ac5e9eb734ec9f74f5e)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2021-05-19 21:05:10,913  INFO [main] ExternalLogins:72 - Initialized page factory of Home Page.
+2021-05-19 21:07:10,608  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-19 21:07:31,500  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:07:31,502  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:07:31,618  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (0448e61447721bde780a4ecf2fbb34d9)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2021-05-19 21:07:31,782  INFO [main] ExternalLogins:72 - Initialized page factory of Home Page.
+2021-05-19 21:22:27,930  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-19 21:22:48,767  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:22:48,768  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:22:48,975  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fef85f0a3d5ef5449611d395ec6d837e)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-19 21:22:49,163  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fef85f0a3d5ef5449611d395ec6d837e)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-19 21:24:34,211  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-19 21:24:58,635  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:24:58,638  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 21:24:58,881  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (771709e7a2fc10b44568e85797012ab3)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2021-05-19 21:25:00,322  INFO [main] ExternalLogins:72 - Initialized page factory of Home Page.
+2021-05-19 21:25:00,339  INFO [main] HomePageTest:56 - External Login link is functional

@@ -16,7 +16,6 @@ public class CRMAuthorizationPage extends TestBase {
 
     private WebDriver driver;
     private ExtentTest logger;
-    private String url;
     private CommonActions commonActions;
     private BrowserHelper browserHelper;
 

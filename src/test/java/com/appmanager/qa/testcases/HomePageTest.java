@@ -49,14 +49,20 @@ public class HomePageTest extends TestBase {
 
 	@Test(priority=3)
 	public void verifyExternalLoginLinkIsFunctional() {
-	    url = homePage.clickOnExternalLoginLink();
+	    //url = homePage.clickOnExternalLoginLink();
+		homePage.clickOnExternalLoginLink();
+		String url= driver.getCurrentUrl();
 		Assert.assertEquals(url, "https://openmethodsqa_70.qa.openmethodscloud.com/Manage/ManageLogins", "Unable to navigate external login page ");
+		log.info("External Login link is functional");
+
 	}
 	@Test(priority=4)
 	public void verifyResetPasswordLinkIsFunctional() {
 
-		url = homePage.clickOnResetPasswordLink();
+		homePage.clickOnResetPasswordLink();
+		String url = driver.getCurrentUrl();
 		Assert.assertEquals(url, "https://openmethodsqa_70.qa.openmethodscloud.com/Account/ResetUserPassword");
+		log.info("Reset Password link is functional");
 	}
 	@Test(priority=5)
 	public void verifyAboutLinkIsFunctional() {

@@ -12,7 +12,7 @@ public class LoggerHelper {
 			return Logger.getLogger(clas);
 		} else {
 			root = true;
-			PropertyConfigurator.configure("/Automation/MyWorkspace1/AppManager/src/main/resources/log4j.properties");
+			PropertyConfigurator.configure("/Users/tushar/Automation/appmanager/log4j.properties");
 			return Logger.getLogger(clas);
 		}
 	}

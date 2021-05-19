@@ -75,7 +75,7 @@ public class HomePage extends TestBase {
 		return customerTitle.getText();
 	}
 
-	public String clickOnExternalLoginLink() {
+	public ExternalLogins clickOnExternalLoginLink() {
 		commonActions.click(dropDownButton);
 		List<WebElement> list = driver.findElements(By.xpath("//div[@class=\"dropdown-menu show\"]//a"));
 		System.out.println(list.size());
@@ -85,11 +85,12 @@ public class HomePage extends TestBase {
 				break;
 			}
 		}
-		return url = driver.getCurrentUrl();
+		//return url = driver.getCurrentUrl();
+		return new ExternalLogins(driver,logger);
 
 	}
 
-	public String clickOnResetPasswordLink() {
+	public ResetPasswordPage clickOnResetPasswordLink() {
 		commonActions.click(dropDownButton);
 		List<WebElement> list = driver.findElements(By.xpath("//div[@class=\"dropdown-menu show\"]//a"));
 		System.out.println(list.size());
@@ -101,7 +102,7 @@ public class HomePage extends TestBase {
 			}
 
 		}
-		return url = driver.getCurrentUrl();
+		return new ResetPasswordPage(driver,logger);
 
 	}
 
