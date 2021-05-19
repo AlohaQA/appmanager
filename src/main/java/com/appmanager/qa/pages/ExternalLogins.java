@@ -22,6 +22,7 @@ public class ExternalLogins extends TestBase {
 	private String url;
 	private CommonActions commonActions;
 	private BrowserHelper browserHelper;
+	private ExternalLogins ExternalLogin;
 
 	Logger log = LoggerHelper.getLogger(ExternalLogins.class);
 
@@ -41,7 +42,7 @@ public class ExternalLogins extends TestBase {
 	@FindBy(xpath = "//table[@class=\"table table-striped table-hover sortable table-margin\"]//tr//th[3]")
 	WebElement ExternalLoginTableColumn3;
 
-	@FindBy(xpath = "//div[@class=\"row\"]//tr[2]//div//a[@id=\"loginLink\"]")
+	@FindBy(xpath = "//div[@class=\"row\"]//tr[1]//div//a[@id=\"loginLink\"]")
 	WebElement AuthorisedBtn;
 
 	@FindBy(xpath = "//div[@class=\"row\"]//tr[1]//div//a[@id=\"loginLink\"]")
@@ -102,7 +103,7 @@ public class ExternalLogins extends TestBase {
 		}
 		else{
 			commonActions.isElementPresent(ReAuthorisedBtn);
-			commonActions.isElementEnabled(AuthorisedBtn);
+			ExternalLogins.this.clickOnCrmReAuthorizationButton();
 			commonActions.click(AuthorisedBtn);
 		}
 
@@ -114,7 +115,9 @@ public class ExternalLogins extends TestBase {
 				commonActions.click(ReAuthorisedBtn);
 			}
 			else{
+				commonActions.isElementPresent(AuthorisedBtn);
 				ExternalLogins.this.clickOnCrmAuthorizationButton();
+				commonActions.click(ReAuthorisedBtn);
 			}
 
 

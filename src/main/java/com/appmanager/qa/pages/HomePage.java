@@ -70,6 +70,8 @@ public class HomePage extends TestBase {
 	}
 
 	public String customerTitleAtHomePage() {
+		commonActions.isElementPresent(expandCollapseIcon);
+		commonActions.click(expandCollapseIcon);
 		return customerTitle.getText();
 	}
 

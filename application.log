@@ -6806,3 +6806,8 @@ Session ID: 4d101fca0d8e38da4ed31a9e9b23e198
 2020-12-01 02:55:27,012  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on WINDOWS (4ae16fde92eace89004817695065d7d8)] -> xpath: //div[@class="row"]//tr[1]//div//a[@id="loginLink"]] present on UI is:	true
 2020-12-01 02:55:27,040  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on WINDOWS (4ae16fde92eace89004817695065d7d8)] -> xpath: //div[@class="row"]//tr[1]//div//a[@id="loginLink"]] present on UI is:	true
 2020-12-01 02:55:27,370  INFO [main] LoginPageTest:89 - The Username field is required.
+2021-05-19 15:12:44,757  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-19 15:13:17,221  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 15:13:17,225  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-19 15:13:17,333  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (929a645daedbd8d13509af1f2f7c1b79)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-19 15:13:17,387  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (929a645daedbd8d13509af1f2f7c1b79)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
