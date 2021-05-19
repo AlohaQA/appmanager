@@ -25,7 +25,7 @@ public class HomePage extends TestBase {
 
 	Logger log = LoggerHelper.getLogger(HomePage.class);
 
-	// Page factory for Home Page
+	// Add Page factory for Home Page
 
 	@FindBy(xpath = "//span[contains(text(),\"OPENMETHODSQA\")]")
 	WebElement customerTitle;

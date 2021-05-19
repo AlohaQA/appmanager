@@ -4,4 +4,6 @@ import com.appmanager.qa.base.TestBase;
 
 public class ApiKeyPage extends TestBase {
 
+    ApiKeyPage apiKeyPage;
+
 }
