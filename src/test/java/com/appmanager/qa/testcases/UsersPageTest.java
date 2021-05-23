@@ -46,23 +46,36 @@ public class UsersPageTest extends TestBase {
 	@Test(priority=2)
 	public void verifySearchWithUserNameTest1() {
 
-		usersPage.searchWithUsername(s);
+		usersPage.search(s);
 
 	}
-		
-	@DataProvider
-	public Object[][] getUsersData() {
-		
-		Object data[][] = TestUtil.getTestData("users");
-		return data;
+
+	@Test(priority = 3)
+	public void verifySearchWithNameTest(){
+		String s = "Amit";
+		usersPage.search(s);
+
 	}
-	
-	@Test(priority=3, dataProvider = "getUsersData")
-	public void verifyInviteMultipleUsersTest(String firstname, String lastname, String emailaddress) {
-		 
-		usersPage.inviteMultipeUser(firstname, lastname, emailaddress);
-		
+
+	@Test(priority = 4)
+	public void verifyColumnsPresentAtUserPageGrid(){
+		System.out.println("Columns Presented are:");
+		usersPage.presentColumns();
 	}
+		
+//	@DataProvider
+//	public Object[][] getUsersData() {
+//
+//		Object data[][] = TestUtil.getTestData("users");
+//		return data;
+//	}
+//
+//	@Test(priority=3, dataProvider = "getUsersData")
+//	public void verifyInviteMultipleUsersTest(String firstname, String lastname, String emailaddress) {
+//
+//		usersPage.inviteMultipeUser(firstname, lastname, emailaddress);
+//
+//	}
 	
 	@AfterMethod
 	

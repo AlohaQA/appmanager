@@ -23,7 +23,6 @@ import com.appmanager.qa.testrail.APIException;
 public class TestNGProject
 {
 	String PROJECT_ID = "17";
-	String Suite_Id = "174";
 	APIClient client = null;
 
 	@BeforeSuite

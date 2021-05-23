@@ -6832,3 +6832,45 @@ Session ID: 4d101fca0d8e38da4ed31a9e9b23e198
 2021-05-19 21:24:58,881  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (771709e7a2fc10b44568e85797012ab3)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
 2021-05-19 21:25:00,322  INFO [main] ExternalLogins:72 - Initialized page factory of Home Page.
 2021-05-19 21:25:00,339  INFO [main] HomePageTest:56 - External Login link is functional
+2021-05-20 21:40:32,158  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-20 21:42:07,338  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-20 21:42:07,346  INFO [main] HomePage:92 - Initialized page factory of Users Page.
+2021-05-20 21:42:27,423  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="left-nav"]//ul//li[@id="settingsDropdown"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:e04:c3fe:cd3f:6733:ba6e:97ad%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:55850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 188fca0e75bb3da88ae08068dcae258b
+*** Element info: {Using=xpath, value=//div[@class="left-nav"]//ul//li[@id="settingsDropdown"]}
+2021-05-20 21:42:27,423  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-20 21:42:27,493  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (188fca0e75bb3da88ae08068dcae258b)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	false
+2021-05-20 21:42:27,493  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-22 21:22:51,326  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-22 21:23:55,772  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-22 21:23:55,774  INFO [main] HomePage:92 - Initialized page factory of Users Page.
+2021-05-22 21:24:15,842  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="left-nav"]//ul//li[@id="settingsDropdown"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2712:83b2:8ddd:1760:78cc:abe3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:54681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49cf816fe6c8a338ed5e98d14f2d09ce
+*** Element info: {Using=xpath, value=//div[@class="left-nav"]//ul//li[@id="settingsDropdown"]}
+2021-05-22 21:24:15,843  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-22 21:24:15,917  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (49cf816fe6c8a338ed5e98d14f2d09ce)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	false
+2021-05-22 21:24:15,917  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-22 21:26:49,792  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-22 21:27:51,512  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-22 21:27:51,516  INFO [main] HomePage:95 - Initialized page factory of Users Page.
+2021-05-22 21:27:51,628  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6db68ab0a2dd709af757eb2a95fefbe2)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-22 21:27:51,821  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6db68ab0a2dd709af757eb2a95fefbe2)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-22 21:27:52,086  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6db68ab0a2dd709af757eb2a95fefbe2)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-22 21:55:36,739  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-22 21:56:18,524  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-22 21:56:18,531  INFO [main] HomePage:93 - Initialized page factory of Users Page.
+2021-05-22 21:56:18,629  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (da8e9667ddab961231406d44cc893307)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-22 21:56:18,790  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (da8e9667ddab961231406d44cc893307)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-22 21:56:19,027  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (da8e9667ddab961231406d44cc893307)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true

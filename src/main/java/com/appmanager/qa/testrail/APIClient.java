@@ -12,8 +12,9 @@
  
 package com.appmanager.qa.testrail;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
+import java.net.URL;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -22,11 +23,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.util.Base64;
-
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 
