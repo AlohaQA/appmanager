@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -81,7 +82,10 @@ public class AdminUsersPage extends TestBase {
 	WebElement searchBox; 
 	
 	@FindBy(xpath="//button[@type=\"button\" and text()=\"Search\"]")
-	WebElement searchButton; 
+	WebElement searchButton;
+
+	@FindAll(@FindBy(xpath = "//tr//th[contains(@class,\"sorting\")]"))
+	List<WebElement> gridColumns;
 	
 	// Initialize page factory
 	public AdminUsersPage(WebDriver driver, ExtentTest logger) {
@@ -97,27 +101,32 @@ public class AdminUsersPage extends TestBase {
 	}
 
 	public String userPageUIText1(){
-		commonActions.isElementPresent(userPageUIText1);
-		String str1 = commonActions.getText(userPageUIText1);
-		return str1;
+		commonActions.click(expandCollapseIcon);
+			commonActions.click(settingsTab);
+			commonActions.click(userTab);
+			commonActions.isElementPresent(userPageUIText1);
+			String s = commonActions.getText(userPageUIText1);
+			commonActions.isElementPresent(userPageUIText2);
+			return s;
 	}
-	public boolean userPageUIText2(){
-		return commonActions.isElementPresent(userPageUIText2);
 
-	}
+	public String userPageUIText2(){
+			String s = commonActions.getText(userPageUIText2);
+			commonActions.isElementPresent(userPageUIText2);
+			return s;
+		}
+
+
 
 	public void presentColumns() {
-		commonActions.click(expandCollapseIcon);
-		commonActions.click(settingsTab);
-		commonActions.click(userTab);
-		List<WebElement> elements = driver.findElements(By.tagName("//tr[1]//th"));
-		for (WebElement element : elements) {
 
-				System.out.println("All columns:"+element.getText());
+		System.out.println("Below columns present at UsersGrid");
+		for(WebElement elements: gridColumns ){
 
-				}
-
+			System.out.println(elements.getText());
 		}
+
+	}
 
 
 

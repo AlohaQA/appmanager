@@ -1,6 +1,7 @@
 package com.appmanager.qa.testcases;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -37,29 +38,38 @@ public class UsersPageTest extends TestBase {
 
 	}
 
-	@Test(priority=1)
+	@Test(priority = 1)
+	public void verifyAdminUserPageUI(){
+
+		String s = usersPage.userPageUIText1();
+		Assert.assertEquals(s,"Users");
+		String s1 = usersPage.userPageUIText2();
+		Assert.assertEquals(s1," | manage users and permissions.");
+
+			}
+
+	@Test(priority=2)
 	public void verifyInviteUserTest() {
 		usersPage.inviteUser();
 		
 	}
 
-	@Test(priority=2)
+	@Test(priority=3)
 	public void verifySearchWithUserNameTest1() {
 
 		usersPage.search(s);
 
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void verifySearchWithNameTest(){
 		String s = "Amit";
 		usersPage.search(s);
 
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void verifyColumnsPresentAtUserPageGrid(){
-		System.out.println("Columns Presented are:");
 		usersPage.presentColumns();
 	}
 		
