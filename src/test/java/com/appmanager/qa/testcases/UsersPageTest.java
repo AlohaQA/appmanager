@@ -1,6 +1,7 @@
 package com.appmanager.qa.testcases;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -12,6 +13,8 @@ import com.appmanager.qa.pages.AdminUsersPage;
 import com.appmanager.qa.util.TestUtil;
 import com.appmanager.qa.pages.LoginPage;
 import com.relevantcodes.extentreports.ExtentTest;
+
+import java.util.List;
 
 public class UsersPageTest extends TestBase {
 
@@ -54,24 +57,54 @@ public class UsersPageTest extends TestBase {
 		
 	}
 
-	@Test(priority=3)
-	public void verifySearchWithUserNameTest1() {
 
-		usersPage.search(s);
+	@Test(priority = 3)
+	public void verifyColumnsPresentAtUserPageGrid() {
+
+		List<WebElement> Columns = usersPage.presentColumns();
+		String[] ExpectedColumns = {"USERNAME ", "NAME ", "ROLES", "EMAIL ADDRESS ", "EMAIL CONFIRM ", "ACTIONS"};
+		try{
+			for (int i = 0; i <= ExpectedColumns.length; i++) {
+				String str = Columns.get(i).getText();
+				if (str.equals(ExpectedColumns[i])) {
+					Assert.assertEquals(str,ExpectedColumns[i]);
+					System.out.println("Passed On:" + str);
+				} else {
+					Assert.assertEquals(str,ExpectedColumns[i]);
+					System.out.println("Failed On:" + str);
+				}
+			}
+
+		}catch (Throwable e){
+			System.out.println(e);
+		}
+	}
+
+	@Test(priority=4)
+	public void verifySearchWithUserName() {
+
+		usersPage.searchWithUsername();
 
 	}
 
-	@Test(priority = 4)
-	public void verifySearchWithNameTest(){
-		String s = "Amit";
-		usersPage.search(s);
+	@Test(priority=5)
+	public void verifySearchWithName() {
+
+		usersPage.searchWithName();
 
 	}
 
-	@Test(priority = 5)
-	public void verifyColumnsPresentAtUserPageGrid(){
-		usersPage.presentColumns();
+	@Test(priority = 6)
+	public void verifySearchWithRoles(){
+		usersPage.searchWithRole();
 	}
+
+
+
+
+
+
+
 		
 //	@DataProvider
 //	public Object[][] getUsersData() {

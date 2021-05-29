@@ -6874,3 +6874,498 @@ Session ID: 49cf816fe6c8a338ed5e98d14f2d09ce
 2021-05-22 21:56:18,629  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (da8e9667ddab961231406d44cc893307)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
 2021-05-22 21:56:18,790  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (da8e9667ddab961231406d44cc893307)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
 2021-05-22 21:56:19,027  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (da8e9667ddab961231406d44cc893307)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 11:08:22,868  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 11:08:40,330  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 11:08:40,336  INFO [main] HomePage:100 - Initialized page factory of Users Page.
+2021-05-25 11:08:40,468  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (62090c9e7d86b383f98e14ab3023e5d2)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 11:08:40,762  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (62090c9e7d86b383f98e14ab3023e5d2)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 11:08:40,933  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (62090c9e7d86b383f98e14ab3023e5d2)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 11:08:42,965  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (62090c9e7d86b383f98e14ab3023e5d2)] -> xpath: //tr//th[@class="sorting cursor-pointer has-tooltip"][1]] present on UI is:	true
+2021-05-25 11:08:42,991  INFO [main] CommonActions:183 - Text is:	USERNAME 
+2021-05-25 11:08:43,027  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (62090c9e7d86b383f98e14ab3023e5d2)] -> xpath: //tr//th[@class="sorting cursor-pointer has-tooltip"][1]] present on UI is:	true
+2021-05-25 11:10:02,357  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 11:10:26,568  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 11:10:26,571  INFO [main] HomePage:100 - Initialized page factory of Users Page.
+2021-05-25 11:10:26,688  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc15abf0de76aca9fe1b0e585e64442e)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 11:10:26,972  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc15abf0de76aca9fe1b0e585e64442e)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 11:10:27,119  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc15abf0de76aca9fe1b0e585e64442e)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 11:10:29,234  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc15abf0de76aca9fe1b0e585e64442e)] -> xpath: //tr//th[@class="sorting cursor-pointer has-tooltip"][1]] present on UI is:	true
+2021-05-25 11:10:29,257  INFO [main] CommonActions:183 - Text is:	USERNAME 
+2021-05-25 11:10:29,292  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc15abf0de76aca9fe1b0e585e64442e)] -> xpath: //tr//th[@class="sorting cursor-pointer has-tooltip"][1]] present on UI is:	true
+2021-05-25 11:10:29,296  INFO [main] HomePageTest:81 - Column 1 presentUSERNAME 
+2021-05-25 11:11:31,743  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 11:11:57,835  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 11:11:57,841  INFO [main] HomePage:100 - Initialized page factory of Users Page.
+2021-05-25 11:11:57,956  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4b0ada1d0dbaa1494e0f8c4ea8fa0112)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 11:11:58,135  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4b0ada1d0dbaa1494e0f8c4ea8fa0112)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 11:11:58,357  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4b0ada1d0dbaa1494e0f8c4ea8fa0112)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 11:12:00,667  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4b0ada1d0dbaa1494e0f8c4ea8fa0112)] -> xpath: //tr//th[contains(@class,"sorting")][1]] present on UI is:	true
+2021-05-25 11:12:00,691  INFO [main] CommonActions:183 - Text is:	USERNAME 
+2021-05-25 11:12:00,727  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4b0ada1d0dbaa1494e0f8c4ea8fa0112)] -> xpath: //tr//th[contains(@class,"sorting")][1]] present on UI is:	true
+2021-05-25 11:12:00,731  INFO [main] HomePageTest:81 - Column 1 presentUSERNAME 
+2021-05-25 19:13:34,138  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 19:14:16,534  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 19:14:16,542  INFO [main] HomePage:100 - Initialized page factory of Users Page.
+2021-05-25 19:14:16,696  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (32320f6212df07b9617318f73d55790f)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 19:14:17,004  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (32320f6212df07b9617318f73d55790f)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 19:14:17,235  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (32320f6212df07b9617318f73d55790f)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 19:14:19,187  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (32320f6212df07b9617318f73d55790f)] -> xpath: //tr//th[contains(@class,"sorting")][1]] present on UI is:	true
+2021-05-25 19:14:19,218  INFO [main] CommonActions:183 - Text is:	USERNAME 
+2021-05-25 19:14:19,258  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (32320f6212df07b9617318f73d55790f)] -> xpath: //tr//th[contains(@class,"sorting")][1]] present on UI is:	true
+2021-05-25 19:14:19,264  INFO [main] HomePageTest:81 - Column 1 presentUSERNAME 
+2021-05-25 19:16:13,046  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 19:16:47,133  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 19:16:47,140  INFO [main] HomePage:100 - Initialized page factory of Users Page.
+2021-05-25 23:13:18,178  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 23:14:26,211  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 23:14:26,219  INFO [main] HomePage:101 - Initialized page factory of Users Page.
+2021-05-25 23:14:26,353  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 23:14:26,627  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 23:14:26,945  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 23:14:32,174  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:14:32,290  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:14:32,764  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-25 23:14:33,388  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:14:33,490  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:14:33,945  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-25 23:14:34,871  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:14:34,964  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:14:35,440  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (163c75e13b3c247a9a67fb2a17a11ddb)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-25 23:17:35,508  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 23:18:49,322  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 23:18:49,331  INFO [main] HomePage:101 - Initialized page factory of Users Page.
+2021-05-25 23:18:49,467  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 23:18:49,761  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 23:18:50,050  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 23:18:53,887  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:18:54,000  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:18:54,537  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-25 23:18:55,056  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:18:55,150  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:18:55,650  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-25 23:18:56,119  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:18:56,218  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:18:56,795  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (254897cc14f0cf1b114f431b193084f5)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-25 23:29:17,560  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 23:30:18,548  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 23:30:18,556  INFO [main] HomePage:101 - Initialized page factory of Users Page.
+2021-05-25 23:30:18,687  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e90e53e9ce91ac31b51fdd99248c5035)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 23:30:19,104  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e90e53e9ce91ac31b51fdd99248c5035)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 23:30:19,271  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e90e53e9ce91ac31b51fdd99248c5035)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 23:30:24,015  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e90e53e9ce91ac31b51fdd99248c5035)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:30:24,121  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e90e53e9ce91ac31b51fdd99248c5035)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:30:24,300  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e90e53e9ce91ac31b51fdd99248c5035)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-25 23:35:58,966  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 23:39:10,127  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-25 23:39:50,241  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-25 23:39:50,247  INFO [main] HomePage:101 - Initialized page factory of Users Page.
+2021-05-25 23:39:50,380  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e3d9189fa950a48d044b2ddcd966cc9d)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-25 23:39:50,615  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e3d9189fa950a48d044b2ddcd966cc9d)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-25 23:39:50,913  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e3d9189fa950a48d044b2ddcd966cc9d)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-25 23:39:58,677  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e3d9189fa950a48d044b2ddcd966cc9d)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:39:58,798  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e3d9189fa950a48d044b2ddcd966cc9d)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-25 23:39:58,995  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e3d9189fa950a48d044b2ddcd966cc9d)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 00:11:27,340  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 00:11:50,233  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 00:11:50,237  INFO [main] HomePage:101 - Initialized page factory of Users Page.
+2021-05-26 00:11:50,349  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (03314e7a8d4aaddd411063536c975ed6)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 00:11:50,541  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (03314e7a8d4aaddd411063536c975ed6)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 00:11:50,762  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (03314e7a8d4aaddd411063536c975ed6)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 00:11:53,445  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (03314e7a8d4aaddd411063536c975ed6)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 00:11:53,554  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (03314e7a8d4aaddd411063536c975ed6)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 00:11:53,697  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (03314e7a8d4aaddd411063536c975ed6)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 00:28:27,883  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 00:29:20,594  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 00:29:20,601  INFO [main] HomePage:101 - Initialized page factory of Users Page.
+2021-05-26 00:29:20,726  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (2bd5e80275ac39fa3f656f39fe079d33)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 00:29:20,947  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (2bd5e80275ac39fa3f656f39fe079d33)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 00:29:21,254  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (2bd5e80275ac39fa3f656f39fe079d33)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 00:29:24,701  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (2bd5e80275ac39fa3f656f39fe079d33)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 00:29:24,835  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (2bd5e80275ac39fa3f656f39fe079d33)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 00:29:25,000  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (2bd5e80275ac39fa3f656f39fe079d33)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 00:29:25,525  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (2bd5e80275ac39fa3f656f39fe079d33)] -> xpath: //tr[1]//td[@class=" text-break word-break"][1]] present on UI is:	true
+2021-05-26 10:19:28,152  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 10:19:50,270  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 10:19:50,275  INFO [main] HomePage:104 - Initialized page factory of Users Page.
+2021-05-26 10:19:50,469  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8c8410299c855d6cfcbd32e1906b0ede)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 10:19:50,852  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8c8410299c855d6cfcbd32e1906b0ede)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 10:19:51,001  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8c8410299c855d6cfcbd32e1906b0ede)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 10:19:54,567  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8c8410299c855d6cfcbd32e1906b0ede)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:19:54,768  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8c8410299c855d6cfcbd32e1906b0ede)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:19:55,019  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8c8410299c855d6cfcbd32e1906b0ede)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 10:31:22,097  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 10:32:06,709  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 10:32:06,713  INFO [main] HomePage:104 - Initialized page factory of Users Page.
+2021-05-26 10:32:06,828  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 10:32:07,013  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 10:32:07,180  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 10:32:09,422  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:32:09,520  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:32:09,682  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 10:32:10,290  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:32:10,376  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:32:10,477  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (8e4eea068e96dc11d1d7c78a60918acb)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 10:34:21,054  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 10:35:14,058  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 10:35:14,062  INFO [main] HomePage:104 - Initialized page factory of Users Page.
+2021-05-26 10:35:14,152  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 10:35:14,325  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 10:35:14,504  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 10:35:16,286  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:35:16,365  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:35:16,475  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:35:16,606  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 10:35:17,317  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:35:17,383  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:35:17,470  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 10:35:17,622  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5bda2acf43bc39f1de2e500bd273a191)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 11:29:36,257  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 11:30:48,022  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 11:30:48,030  INFO [main] HomePage:110 - Initialized page factory of Users Page.
+2021-05-26 11:30:48,131  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 11:30:48,332  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 11:30:48,585  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 11:31:42,954  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 11:31:43,027  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 11:31:43,133  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 11:31:43,284  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 11:32:03,390  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr//td[@class="userNotfoundLabel"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-MacBook-Air.local', ip: '2402:3a80:1348:8f2e:8834:1349:70ac:d518%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:62691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47456f48c7763be66dd34cc6cdb95370
+*** Element info: {Using=xpath, value=//tr//td[@class="userNotfoundLabel"]}
+2021-05-26 11:32:03,428  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-26 11:32:03,510  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 11:32:03,586  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 11:32:03,668  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 11:32:03,807  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 11:32:04,544  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (47456f48c7763be66dd34cc6cdb95370)] -> xpath: //tr//td[@class="userNotfoundLabel"]] present on UI is:	true
+2021-05-26 19:42:57,042  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 19:43:35,513  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 19:43:35,516  INFO [main] HomePage:110 - Initialized page factory of Users Page.
+2021-05-26 19:43:35,634  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 19:43:35,909  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 19:43:36,047  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 19:43:39,884  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:43:39,977  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:43:40,130  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:43:40,292  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 19:44:00,444  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr//td[@class="userNotfoundLabel"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2e0c:fc77:d88f:2467:eb33:4702%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:52001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a94a5db30dfafc3165a662a09370ebb2
+*** Element info: {Using=xpath, value=//tr//td[@class="userNotfoundLabel"]}
+2021-05-26 19:44:00,487  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-26 19:44:00,585  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:44:00,673  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:44:00,769  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:44:00,917  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 19:44:01,569  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a94a5db30dfafc3165a662a09370ebb2)] -> xpath: //tr//td[@class="userNotfoundLabel"]] present on UI is:	true
+2021-05-26 19:46:53,484  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 19:47:58,190  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 19:47:58,194  INFO [main] HomePage:110 - Initialized page factory of Users Page.
+2021-05-26 19:47:58,311  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 19:47:58,518  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 19:47:58,757  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 19:48:07,326  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:48:07,403  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:48:07,541  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:48:07,695  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 19:48:08,336  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-26 19:48:08,424  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:48:08,501  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:48:08,590  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:48:08,714  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 19:48:09,269  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (5ecbd715aed567b5189ef0f46cf9afd2)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-26 19:49:51,104  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 19:50:33,668  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 19:50:33,671  INFO [main] HomePage:110 - Initialized page factory of Users Page.
+2021-05-26 19:50:33,772  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 19:50:34,084  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 19:50:34,246  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 19:50:37,381  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:50:37,467  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:50:37,607  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:50:37,780  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 19:50:38,299  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-26 19:50:38,392  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:50:38,466  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:50:38,548  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 19:50:38,656  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 19:50:40,090  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (896ca8cb10eda7c589d4a98f8d884a42)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-26 23:23:10,532  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-26 23:23:38,243  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-26 23:23:38,251  INFO [main] HomePage:111 - Initialized page factory of Users Page.
+2021-05-26 23:23:38,386  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-26 23:23:38,671  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-26 23:23:38,805  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-26 23:23:40,888  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 23:23:40,978  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 23:23:41,128  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 23:23:41,293  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 23:23:41,762  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-26 23:23:41,848  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 23:23:41,916  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 23:23:42,006  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-26 23:23:42,107  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-26 23:23:42,561  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7a38a3553b4d3100fbc745a94505cd66)] -> xpath: //tr//td[1]] present on UI is:	true
+2021-05-27 12:21:01,805  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-27 12:21:28,906  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-27 12:21:28,913  INFO [main] HomePage:118 - Initialized page factory of Users Page.
+2021-05-27 12:21:29,082  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-27 12:21:29,446  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-27 12:21:29,594  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-27 12:21:31,466  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	false
+2021-05-27 12:21:31,466  INFO [main] CommonActions:269 - Element is not present and unable to select the drop down value.
+2021-05-27 12:21:31,516  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-27 12:21:31,761  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-27 12:21:31,860  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	false
+2021-05-27 12:21:31,860  INFO [main] CommonActions:269 - Element is not present and unable to select the drop down value.
+2021-05-27 12:21:31,896  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-27 12:21:31,966  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e40f191da962ae3b692191e566d09ba6)] -> xpath: //input[@placeholder="Search" and @type="search"]] present on UI is:	true
+2021-05-27 12:33:33,895  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-27 12:34:05,354  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-27 12:34:05,360  INFO [main] HomePage:118 - Initialized page factory of Users Page.
+2021-05-27 12:34:05,495  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (c7d503a6416cd28f0928e7b63dfaa122)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-27 12:34:05,815  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (c7d503a6416cd28f0928e7b63dfaa122)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-27 12:34:06,013  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (c7d503a6416cd28f0928e7b63dfaa122)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-27 12:34:09,175  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (c7d503a6416cd28f0928e7b63dfaa122)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-27 12:34:09,245  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (c7d503a6416cd28f0928e7b63dfaa122)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-27 13:11:54,241  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-27 13:12:30,681  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-27 13:12:30,688  INFO [main] HomePage:125 - Initialized page factory of Users Page.
+2021-05-27 13:12:30,817  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (9b528108621b3e1f95f6862b6cc46a0e)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-27 13:12:31,125  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (9b528108621b3e1f95f6862b6cc46a0e)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-27 13:12:31,276  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (9b528108621b3e1f95f6862b6cc46a0e)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-27 13:12:33,094  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (9b528108621b3e1f95f6862b6cc46a0e)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-28 15:08:14,675  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-28 15:08:55,616  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-28 15:08:55,624  INFO [main] HomePage:125 - Initialized page factory of Users Page.
+2021-05-28 15:08:55,747  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b584336f185025659e07983581d16578)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-28 15:08:56,028  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b584336f185025659e07983581d16578)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-28 15:08:56,175  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b584336f185025659e07983581d16578)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-28 15:08:57,526  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b584336f185025659e07983581d16578)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-28 15:14:50,841  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-28 15:15:24,990  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-28 15:15:24,997  INFO [main] HomePage:127 - Initialized page factory of Users Page.
+2021-05-28 15:15:25,106  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (56a820fc3caf64b50292546bfb6fb9a8)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-28 15:15:25,305  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (56a820fc3caf64b50292546bfb6fb9a8)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-28 15:15:25,557  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (56a820fc3caf64b50292546bfb6fb9a8)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-28 15:15:29,150  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (56a820fc3caf64b50292546bfb6fb9a8)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-28 16:03:34,476  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-28 16:04:08,555  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-28 16:04:08,563  INFO [main] HomePage:127 - Initialized page factory of Users Page.
+2021-05-28 16:04:08,712  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6e128f38cbba965ce7fba048a3786a8b)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-28 16:04:09,000  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6e128f38cbba965ce7fba048a3786a8b)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-28 16:04:09,135  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6e128f38cbba965ce7fba048a3786a8b)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-28 16:04:12,803  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6e128f38cbba965ce7fba048a3786a8b)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 14:06:56,351  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 14:07:51,124  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 14:07:51,132  INFO [main] HomePage:127 - Initialized page factory of Users Page.
+2021-05-29 14:07:51,240  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (1aa86742aa2236230a1276633e9f3814)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 14:07:51,416  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (1aa86742aa2236230a1276633e9f3814)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 14:07:51,598  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (1aa86742aa2236230a1276633e9f3814)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 14:07:55,776  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (1aa86742aa2236230a1276633e9f3814)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 14:13:16,657  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 14:13:38,175  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 14:13:38,182  INFO [main] HomePage:127 - Initialized page factory of Users Page.
+2021-05-29 14:13:38,315  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (170416e3d4d75138e4e5732d27394fe5)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 14:13:38,598  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (170416e3d4d75138e4e5732d27394fe5)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 14:13:38,745  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (170416e3d4d75138e4e5732d27394fe5)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 14:13:40,968  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (170416e3d4d75138e4e5732d27394fe5)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 14:18:46,250  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 14:19:20,096  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 14:19:20,104  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 14:19:20,201  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (be80a178e9d1b2407a5de7fcc1418555)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 14:19:20,376  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (be80a178e9d1b2407a5de7fcc1418555)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 14:19:20,708  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (be80a178e9d1b2407a5de7fcc1418555)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 14:19:23,620  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (be80a178e9d1b2407a5de7fcc1418555)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 14:19:43,793  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-labelledby="roleDropdown"and@class="dropdown-menu"]//a[@class="dropdown-item"][2]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2d98:e6c3:20d2:9403:5506:2588%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be80a178e9d1b2407a5de7fcc1418555
+*** Element info: {Using=xpath, value=//div[@aria-labelledby="roleDropdown"and@class="dropdown-menu"]//a[@class="dropdown-item"][2]}
+2021-05-29 14:19:43,794  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-29 14:19:43,845  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (be80a178e9d1b2407a5de7fcc1418555)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 14:51:15,998  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 14:51:41,857  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 14:51:41,861  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 14:51:41,967  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f8e2199287c7f1e907e0358405f7f449)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 14:51:42,168  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f8e2199287c7f1e907e0358405f7f449)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 14:51:42,384  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f8e2199287c7f1e907e0358405f7f449)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 14:51:44,233  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f8e2199287c7f1e907e0358405f7f449)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 15:56:01,346  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 15:56:37,264  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 15:56:37,269  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 15:56:37,398  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc3ab58dbee79c903063f11fc06c6579)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 15:56:37,685  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc3ab58dbee79c903063f11fc06c6579)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 15:56:37,825  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc3ab58dbee79c903063f11fc06c6579)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 15:56:40,273  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc3ab58dbee79c903063f11fc06c6579)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 15:56:40,564  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fc3ab58dbee79c903063f11fc06c6579)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:02:16,720  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 16:03:13,895  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 16:03:13,910  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 16:03:14,024  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 16:03:14,233  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 16:03:14,430  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 16:03:19,047  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:03:19,336  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:03:21,480  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:03:21,619  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	false
+2021-05-29 16:03:21,620  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-29 16:03:23,663  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:03:23,758  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	false
+2021-05-29 16:03:23,758  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-29 16:03:25,803  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:03:25,896  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	false
+2021-05-29 16:03:25,898  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-29 16:03:27,944  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:03:28,080  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	false
+2021-05-29 16:03:28,081  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-29 16:03:30,123  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b5fb40836281000dbf1843153920f0a2)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:10:07,635  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 16:10:53,784  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 16:10:53,788  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 16:10:53,890  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 16:10:54,152  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 16:10:54,306  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 16:10:59,566  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:10:59,723  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:11:01,854  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:11:02,003  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:11:02,078  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:11:04,200  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:11:04,756  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:11:04,835  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:11:06,957  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:11:07,489  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:11:07,571  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:11:09,667  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:11:29,828  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:11:29,918  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:11:32,015  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:11:32,865  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (100f4e96134b123fd8edc79237aeefb8)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:23:08,361  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 16:26:54,747  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 16:27:38,833  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 16:27:38,839  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 16:27:38,956  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 16:27:39,183  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 16:27:39,464  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 16:27:41,878  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:27:42,131  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:27:44,305  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:27:44,448  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:27:44,521  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:27:46,645  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:27:47,141  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:27:47,212  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:27:49,347  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:27:50,125  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:27:50,198  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:27:52,300  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:28:12,411  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:28:12,507  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 16:28:14,619  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 16:28:15,227  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa459b14a37479f651dcbf8ad8b711b3)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 16:44:11,176  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 23:20:46,393  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 23:21:08,865  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 23:21:08,870  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 23:21:09,032  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 23:21:09,335  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 23:21:09,467  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 23:21:11,234  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:21:11,455  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:21:13,651  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:21:13,801  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:21:13,888  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:21:16,025  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:21:16,581  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:21:16,654  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:21:18,759  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:21:19,269  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:21:19,347  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:21:21,460  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:21:41,627  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:21:41,717  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:21:43,817  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:21:44,299  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (df67085d2fc2604175d62205ef607050)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:24:27,522  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 23:24:59,047  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 23:24:59,050  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 23:24:59,178  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 23:24:59,467  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 23:24:59,618  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 23:25:01,624  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:25:01,856  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:25:04,001  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:25:04,143  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:25:04,227  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:25:06,355  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:25:07,067  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:25:07,141  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:25:09,263  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:25:09,878  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:25:09,955  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:25:12,065  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:25:32,207  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:25:32,324  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:25:34,436  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:25:34,940  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (719896b09583c2c9e2ef066c1fe8681d)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:37:48,320  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 23:38:14,555  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 23:38:14,559  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 23:38:14,672  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 23:38:14,863  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 23:38:15,086  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 23:38:18,347  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:38:18,524  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:38:20,680  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:38:20,847  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:38:20,931  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:38:23,038  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:38:23,558  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:38:23,633  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:38:25,729  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:38:26,559  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:38:26,631  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:38:28,723  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:38:48,869  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:38:48,994  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:38:51,111  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:38:51,624  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (250a0cb03edfae7c2a77bc0ce24edf5c)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:43:14,158  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-29 23:43:51,360  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-29 23:43:51,362  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-29 23:43:51,470  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-29 23:43:51,672  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-29 23:43:51,897  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-29 23:43:53,574  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:43:53,732  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:43:55,862  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:43:56,021  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:43:56,104  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:43:58,222  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:43:58,717  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:43:58,813  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:44:00,912  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:44:01,536  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:44:01,615  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:44:03,720  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:44:23,881  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-29 23:44:23,982  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //div[@class="dropdown-menu show"]//a] present on UI is:	true
+2021-05-29 23:44:26,098  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-05-29 23:44:26,617  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (db00286e50cb11df03e2da632f818299)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
