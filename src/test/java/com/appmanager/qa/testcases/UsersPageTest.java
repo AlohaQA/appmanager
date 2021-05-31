@@ -24,7 +24,7 @@ public class UsersPageTest extends TestBase {
 	private String s; 
 	
 
-	Logger log = Logger.getLogger(HomePageTest.class);
+	Logger log = Logger.getLogger(UsersPageTest.class);
 
 	public UsersPageTest() {
 
@@ -95,7 +95,9 @@ public class UsersPageTest extends TestBase {
 	}
 
 	@Test(priority = 6)
+
 	public void verifySearchWithRoles(){
+		log.info("\"***************** Search with Role Started *********************\"");
 		usersPage.searchWithRole();
 	}
 
