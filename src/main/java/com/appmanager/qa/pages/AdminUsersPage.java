@@ -273,8 +273,6 @@ public class AdminUsersPage extends TestBase {
 					System.out.println("Search with Role: "+s1+"  is success ");
 				}
 				else {
-
-					//Print
 					System.out.println("Search with Role: "+s1+"  is Failed ");
 
 				}

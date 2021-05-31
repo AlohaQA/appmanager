@@ -7403,3 +7403,101 @@ Session ID: be80a178e9d1b2407a5de7fcc1418555
 2021-05-31 11:03:37,062  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b287802a0ffcb430e08430a0ca9e2106)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
 2021-05-31 11:03:37,306  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b287802a0ffcb430e08430a0ca9e2106)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
 2021-05-31 11:03:39,711  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b287802a0ffcb430e08430a0ca9e2106)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-31 11:56:00,665  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 11:56:20,469  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 11:56:20,474  INFO [main] HomePage:130 - Initialized page factory of Users Page.
+2021-05-31 11:56:20,494  INFO [main] UsersPageTest:100 - "***************** Search with Role Started *********************"
+2021-05-31 11:56:20,607  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f3ac9a94d2313f05445c8ccff1d852f1)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-31 11:56:20,841  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f3ac9a94d2313f05445c8ccff1d852f1)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-31 11:56:20,956  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f3ac9a94d2313f05445c8ccff1d852f1)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-31 11:56:23,597  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f3ac9a94d2313f05445c8ccff1d852f1)] -> xpath: //button[@id="roleDropdown"]] present on UI is:	true
+2021-05-31 19:21:46,122  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:21:46,259  INFO [main] LoginPageTest:43 - Logo displays at Home Page 
+2021-05-31 19:21:46,547  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:21:46,547  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:21:46,553 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:21:46,554  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:21:46,560 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:21:46,561  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:21:56,333  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:21:57,976  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:21:58,515  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:21:58,516  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:21:58,524 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:21:58,524  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:21:58,527 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:21:58,529  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:22:07,567  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:22:09,613  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:22:09,622  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-05-31 19:22:09,774  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:22:09,775  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:22:09,782 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:22:09,782  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:22:09,791 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:22:09,793  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:22:21,301  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:22:22,480  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:22:22,493  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-05-31 19:22:22,664  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:22:22,664  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:22:22,672 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:22:22,674  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:22:22,681 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:22:22,682  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:22:37,670  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:22:59,822  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:23:00,027  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:23:00,027  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:23:00,032 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:23:00,033  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:23:00,043 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:23:00,044  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:23:12,686  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:23:12,755  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (ebc96e90e97af15b259512964a06aec8)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-05-31 19:23:13,580  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-05-31 19:25:58,521  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:25:58,649  INFO [main] LoginPageTest:43 - Logo displays at Home Page 
+2021-05-31 19:25:58,824  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:25:58,825  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:25:58,835 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:25:58,836  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:25:58,846 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:25:58,848  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:26:11,315  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:26:12,518  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:26:13,043  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:26:13,044  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:26:13,051 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:26:13,051  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:26:13,059 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:26:13,060  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:26:23,944  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:26:25,100  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:26:25,108  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-05-31 19:26:25,219  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:26:25,219  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:26:25,227 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:26:25,228  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:26:25,232 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:26:25,234  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:26:34,813  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:26:36,027  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:26:36,037  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-05-31 19:26:36,172  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:26:36,172  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:26:36,179 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:26:36,179  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:26:36,184 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:26:36,186  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:26:45,783  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:27:03,707  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 19:27:03,855  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-31 19:27:03,856  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-05-31 19:27:03,860 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:21:04 01/06/2021 IST)
+2021-05-31 19:27:03,861  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-31 19:27:03,867 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-05-31 19:27:03,868  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-05-31 19:27:15,243  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:27:15,317  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (186e814e724a0e6b18bc14daa63f3358)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-05-31 19:27:16,080  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.

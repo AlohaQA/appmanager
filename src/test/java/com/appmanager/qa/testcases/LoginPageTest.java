@@ -1,5 +1,6 @@
 package com.appmanager.qa.testcases;
 
+import com.appmanager.qa.ExtentReportListener.CustomListener;
 import com.appmanager.qa.pages.ForgotPasswordPage;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
@@ -7,13 +8,14 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.appmanager.qa.base.TestBase;
 import com.appmanager.qa.pages.HomePage;
 import com.appmanager.qa.pages.LoginPage;
 import com.relevantcodes.extentreports.ExtentTest;
-
+@Listeners(CustomListener.class)
 public class LoginPageTest extends TestBase {
 
 	LoginPage loginPage;

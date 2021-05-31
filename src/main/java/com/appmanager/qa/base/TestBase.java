@@ -1,12 +1,16 @@
 package com.appmanager.qa.base;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.util.SystemOutLogger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,7 +22,7 @@ public class TestBase {
 	
 	public static WebDriver driver;
 	public static Properties prop;
-	
+
 	public TestBase(){
 		try {
 			prop = new Properties();
@@ -52,11 +56,17 @@ public class TestBase {
 		
 		driver.get(prop.getProperty("url"));
 		System.out.println("GIT");
-		
+
 
 }
-      public static void testrail(){
+	public void takeScreenShot() {
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(scrFile, new File("/Users/tushar/Automation/appmanager/test-output/FailedTestScreenShots/FailedTestScreen.jpg"));
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.out.println("Exception occurred when copying screenshot to folder.");
+		}
 
-
-	  }
+	}
 }
