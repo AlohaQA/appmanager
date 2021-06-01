@@ -2,10 +2,7 @@ package com.appmanager.qa.pages;
 
 import java.util.List;
 
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-import com.sun.xml.fastinfoset.util.StringArray;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -17,7 +14,6 @@ import com.appmanager.qa.helperclasses.BrowserHelper;
 import com.appmanager.qa.helperclasses.CommonActions;
 import com.appmanager.qa.helperclasses.LoggerHelper;
 import com.relevantcodes.extentreports.ExtentTest;
-import sun.jvm.hotspot.utilities.Assert;
 
 public class AdminUsersPage extends TestBase {
 
@@ -58,6 +54,9 @@ public class AdminUsersPage extends TestBase {
 	@FindBy(xpath = "//tr[1]//td[@class=\" text-break word-break\"][1]")
 	WebElement usernameField;
 
+	@FindAll(@FindBy(xpath = "//tr//td[contains(@class,\"text-break word-break\")]"))
+	List<WebElement> allPresentUsername;
+
 	@FindBy(xpath = "//tr[1]//td[@class=\" text-break word-break\"][2]")
 	WebElement name;
 
@@ -81,6 +80,12 @@ public class AdminUsersPage extends TestBase {
 
 	@FindAll(@FindBy(xpath = "//tr//td[3]"))
 	List<WebElement> roleValues;
+
+	@FindBy(xpath = "//div[@class=\"dropdown\"]//button[@id=\"actionDropdown\"]")
+	WebElement actionButton;
+
+	@FindAll(@FindBy(xpath = "//div[@class=\"dropdown-menu show\"]//a"))
+	List<WebElement> actionDropdownItems;
 
 	@FindBy(xpath = "//tr//td[3]")
 	WebElement roleValue;
@@ -117,7 +122,6 @@ public class AdminUsersPage extends TestBase {
 
 	@FindBy(xpath = "//div[@class=\"modal-footer\"]//button[contains(text(),\"Save\") ]")
 	WebElement saveButton;
-
 
 
 	// Initialize page factory
@@ -186,20 +190,21 @@ public class AdminUsersPage extends TestBase {
 	}
 
 	public void inviteMultipeUser(String firstname, String lastname, String emailadress) {
+		commonActions.click(expandCollapseIcon);
 		commonActions.click(settingsTab);
 		commonActions.click(userTab);
 		commonActions.click(inviteUserButton);
 		commonActions.enterData(firstNameText, firstname);
 		commonActions.enterData(lastNameText, lastname);
 		commonActions.enterData(email, emailadress);
-		commonActions.click(lockCheckbox);
+		//commonActions.click(lockCheckbox);
 		commonActions.click(rolesTab);
 		commonActions.click(checkboxAdmin);
 		commonActions.click(checkboxSuperUser);
 		commonActions.click(saveButton);
 		try {
 			browserHelper.wait(2000);
-		} catch (InterruptedException e) {
+		} catch (Throwable e) {
 			e.printStackTrace();
 		}
 
@@ -210,21 +215,20 @@ public class AdminUsersPage extends TestBase {
 		commonActions.click(settingsTab);
 		commonActions.click(userTab);
 		System.out.println("Perform Search Using Email Address: ");
-			String s1 = usernameField.getText();
-			commonActions.click(searchBox);
-			commonActions.enterData(searchBox,s1);
-			commonActions.click(searchButton);
-			if(commonActions.isElementPresent(usernameField) && s1.equals(usernameField.getText())){
-				System.out.println(" Search with username is Completed ");
-			}
-			else
-			{
-				if(commonActions.isElementPresent(userNotFound))
-					System.out.println(" User not found ");
-				else{
-					System.out.println(" Unable to perform search operation with Email ");
+		String s1 = usernameField.getText();
+		commonActions.click(searchBox);
+		commonActions.enterData(searchBox, s1);
+		commonActions.click(searchButton);
+		if (commonActions.isElementPresent(usernameField) && s1.equals(usernameField.getText())) {
+			System.out.println(" Search with username is Completed ");
+		} else {
+			if (commonActions.isElementPresent(userNotFound))
+				System.out.println(" User not found ");
+			else {
+				System.out.println(" Unable to perform search operation with Email ");
 
-				}			}
+			}
+		}
 
 	}
 
@@ -235,16 +239,14 @@ public class AdminUsersPage extends TestBase {
 		System.out.println("Perform Search Using Name: ");
 		String s1 = name.getText();
 		commonActions.click(searchBox);
-		commonActions.enterData(searchBox,s1.substring(0,3));
+		commonActions.enterData(searchBox, s1.substring(0, 3));
 		commonActions.click(searchButton);
-		if(commonActions.isElementPresent(name) && s1.equals(name.getText())){
+		if (commonActions.isElementPresent(name) && s1.equals(name.getText())) {
 			System.out.println(" Search with username is Completed ");
-		}
-		else
-		{
-			if(commonActions.isElementPresent(userNotFound))
-			System.out.println(" User not found ");
-			else{
+		} else {
+			if (commonActions.isElementPresent(userNotFound))
+				System.out.println(" User not found ");
+			else {
 				System.out.println(" Unable to perform search operation with username ");
 
 			}
@@ -258,32 +260,93 @@ public class AdminUsersPage extends TestBase {
 		System.out.println("Perform Search Using Roles: ");
 		commonActions.click(filterByRole);
 		List<WebElement> options = getFilterByRole;
-		for(WebElement element:options){
+		for (WebElement element : options) {
 			System.out.println("Searching started----------");
 			String s1 = element.getText().toLowerCase();
 			commonActions.click(element);
 			commonActions.waitFor(2000);
 			commonActions.click(searchButton);
 
-			for (WebElement roleValues: roleValues){
-				System.out.println("Validating the searched element with  " +s1+"  ----------");
+			for (WebElement roleValues : roleValues) {
+				System.out.println("Validating the searched element with  " + s1 + "  ----------");
 				String s2 = roleValues.getText().toLowerCase();
 				System.out.println(s2);
-				if(s2.contains(s1)){
-					System.out.println("Search with Role: "+s1+"  is success ");
-				}
-				else {
-					System.out.println("Search with Role: "+s1+"  is Failed ");
+				if (s2.contains(s1)) {
+					System.out.println("Search with Role: " + s1 + "  is success ");
+				} else {
+					System.out.println("Search with Role: " + s1 + "  is Failed ");
 
 				}
 			}
 			commonActions.click(filterByRole);
+		}
+	}
 
+	public void editExistingUser() {
+
+		inviteUser();
+		commonActions.click(expandCollapseIcon);
+		commonActions.click(settingsTab);
+		commonActions.click(userTab);
+		commonActions.click(actionButton);
+		List<WebElement> options = actionDropdownItems;
+		for (int i = 0; i <= options.size(); i++) {
+
+			if (options.get(i).getText().contains("Settings")) {
+				options.get(i).click();
+				break;
+			}
+		}
+		commonActions.clear(firstNameText);
+		commonActions.enterData(firstNameText, "Test_Anup");
+		commonActions.clear(lastNameText);
+		commonActions.enterData(lastNameText, "Test_Lakhe");
+		commonActions.clear(email);
+		commonActions.enterData(email, "anupl@gmail.com");
+		commonActions.click(rolesTab);
+		commonActions.click(checkboxAdmin);
+		commonActions.click(checkboxSuperUser);
+		commonActions.click(checkboxAdmin);
+		commonActions.click(saveButton);
+		commonActions.click(userTab);
+
+		try {
+			browserHelper.wait(2000);
+		} catch (Throwable e) {
+			e.printStackTrace();
 		}
 
 
 	}
+
+	public List<WebElement> allPresentUsernames(){
+		return allPresentUsername;
 	}
+
+	public void deleteUser(){
+		inviteUser();
+		commonActions.click(expandCollapseIcon);
+		commonActions.click(settingsTab);
+		commonActions.click(userTab);
+		commonActions.click(actionButton);
+		List<WebElement> options = actionDropdownItems;
+		for (int i = 0; i <= options.size(); i++) {
+
+			if (options.get(i).getText().contains("Delete")) {
+				options.get(i).click();
+				break;
+			}
+		}
+		try {
+			browserHelper.wait(2000);
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+
+
+	}
+
+}
 
 
 

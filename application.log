@@ -7501,3 +7501,496 @@ Session ID: be80a178e9d1b2407a5de7fcc1418555
 2021-05-31 19:27:15,243  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
 2021-05-31 19:27:15,317  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (186e814e724a0e6b18bc14daa63f3358)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
 2021-05-31 19:27:16,080  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-05-31 19:50:15,993  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 19:50:17,256  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 23:46:33,371  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-05-31 23:46:52,157  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-05-31 23:46:52,163  INFO [main] HomePage:136 - Initialized page factory of Users Page.
+2021-05-31 23:46:52,185  INFO [main] UsersPageTest:107 - ***************** Edit existing user test *********************
+2021-05-31 23:46:52,299  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-05-31 23:46:52,644  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-05-31 23:46:52,807  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-05-31 23:46:56,654  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-05-31 23:46:56,998  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-05-31 23:46:57,145  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-05-31 23:46:57,292  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-05-31 23:46:57,400  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-05-31 23:46:57,557  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-05-31 23:46:57,671  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-05-31 23:46:57,839  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-05-31 23:46:57,839  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-05-31 23:46:57,889  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-05-31 23:46:58,003  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-05-31 23:46:58,116  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-05-31 23:46:58,227  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-05-31 23:46:58,327  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3ea27fad48aa1be1d5476aca16d37d99)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:11:23,987  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:11:52,915  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 00:11:52,923  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 00:11:52,943  INFO [main] UsersPageTest:108 - ***************** Edit existing user test *********************
+2021-06-01 00:11:53,039  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 00:11:53,392  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:11:53,560  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:11:55,285  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 00:11:55,456  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:11:55,695  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:11:55,831  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:11:56,042  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 00:11:56,043  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:11:56,093  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:11:56,248  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:11:56,359  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:11:56,481  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:12:16,647  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:58139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5b8c71d1323bea1d9ad0eeb93a30007
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 00:12:16,648  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:12:16,716  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:12:16,885  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:12:19,895  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 00:12:20,201  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:12:20,321  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:12:20,473  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:12:20,588  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:12:20,765  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:12:20,891  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:12:21,071  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:12:21,202  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:12:21,306  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:12:21,433  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:12:21,550  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e5b8c71d1323bea1d9ad0eeb93a30007)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:16:11,770  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:16:46,575  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 00:16:46,582  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 00:16:46,604  INFO [main] UsersPageTest:108 - ***************** Edit existing user test *********************
+2021-06-01 00:16:46,697  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 00:16:47,007  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:16:47,138  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:16:50,511  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 00:16:50,681  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:16:50,836  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:16:50,973  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:16:51,158  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 00:16:51,158  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:16:51,206  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:16:51,310  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:16:51,406  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:16:51,508  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:16:51,660  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (70164b7ef720b4ac41e74a548d72da7f)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 00:19:33,877  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:20:00,714  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 00:20:00,720  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 00:20:00,742  INFO [main] UsersPageTest:108 - ***************** Edit existing user test *********************
+2021-06-01 00:20:00,857  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 00:20:01,163  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:20:01,328  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:20:03,483  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 00:20:03,647  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:20:03,827  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:20:03,969  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:20:04,165  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 00:20:04,166  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:20:04,217  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:20:04,329  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:20:04,531  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:20:04,661  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:20:24,795  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:60216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71acbf74ea3850f448614de55bb76670
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 00:20:24,795  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:20:24,849  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:20:25,083  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:20:26,202  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 00:20:26,510  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:20:26,612  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:20:26,795  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:20:26,924  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:20:27,076  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:20:27,185  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:20:27,345  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:20:27,466  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:20:27,564  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:20:27,658  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:20:27,765  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (71acbf74ea3850f448614de55bb76670)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:22:47,834  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:23:08,573  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 00:23:08,576  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 00:23:08,603  INFO [main] UsersPageTest:108 - ***************** Edit existing user test *********************
+2021-06-01 00:23:08,698  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 00:23:08,989  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:23:09,125  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:23:10,483  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 00:23:10,627  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:23:10,787  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:23:10,920  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:23:11,146  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 00:23:11,146  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:23:11,196  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:23:11,304  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:23:11,436  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:23:11,561  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:23:31,738  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:60957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cddba689bf00ed2abee29e3da475046a
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 00:23:31,738  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:23:31,785  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:23:31,939  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:23:33,125  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 00:23:33,397  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:23:33,493  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:23:33,612  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:23:33,709  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:23:33,861  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:23:33,963  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:23:34,107  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:23:34,226  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:23:34,315  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:23:34,418  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:23:34,514  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:23:34,622  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (cddba689bf00ed2abee29e3da475046a)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:31:24,083  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:32:15,963  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:32:37,763  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 00:32:37,772  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 00:32:37,793  INFO [main] UsersPageTest:108 - ***************** Edit existing user test *********************
+2021-06-01 00:32:37,901  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 00:32:38,224  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:32:38,408  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:32:39,782  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 00:32:39,949  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:32:40,148  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:32:40,436  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:32:40,667  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 00:32:40,667  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:32:40,818  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:32:40,930  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:32:41,035  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:32:41,159  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:33:01,294  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:61101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 221f482d4d9caae558270bd4f705df3a
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 00:33:01,294  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:33:01,354  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:33:01,516  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:33:02,692  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 00:33:03,016  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:33:03,129  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:33:03,278  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:33:03,387  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:33:03,546  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:33:03,664  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:33:03,846  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:33:03,960  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:33:04,057  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:33:04,169  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:33:04,280  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:33:04,403  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (221f482d4d9caae558270bd4f705df3a)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:37:48,708  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:38:06,073  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 00:38:06,079  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 00:38:06,104  INFO [main] UsersPageTest:108 - ***************** Edit existing user test *********************
+2021-06-01 00:38:06,227  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 00:38:06,565  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:38:06,697  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:38:08,386  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 00:38:08,533  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:38:08,804  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:38:09,025  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:38:09,231  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 00:38:09,232  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:38:09,282  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:38:09,402  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:38:09,545  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:38:09,673  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:38:29,825  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:61199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6b23d4c7cfb9e6f86c0537ea0344fa7
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 00:38:29,825  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:38:29,871  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:38:30,013  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:38:31,391  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 00:38:31,663  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:38:31,764  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:38:31,893  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:38:31,990  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:38:32,141  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:38:32,241  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:38:32,384  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:38:32,501  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:38:32,598  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:38:32,712  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:38:32,801  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:38:32,918  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (b6b23d4c7cfb9e6f86c0537ea0344fa7)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:44:27,416  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 00:44:44,248  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 00:44:44,251  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 00:44:44,277  INFO [main] UsersPageTest:108 - ***************** Edit existing user test *********************
+2021-06-01 00:44:44,391  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 00:44:44,687  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:44:44,812  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:44:46,147  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 00:44:46,300  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:44:46,447  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:44:46,570  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:44:46,761  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 00:44:46,761  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:44:46,808  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:44:46,919  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:44:47,029  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:44:47,144  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:45:07,266  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:61281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dce7813e4923059724815d58756c59c5
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 00:45:07,267  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 00:45:07,324  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 00:45:07,469  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 00:45:08,553  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 00:45:08,832  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:45:08,943  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 00:45:09,078  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:45:09,172  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 00:45:09,314  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:45:09,418  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 00:45:09,566  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 00:45:09,700  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:45:09,810  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 00:45:09,912  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 00:45:09,999  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 00:45:10,117  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (dce7813e4923059724815d58756c59c5)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:03:10,408  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 01:03:27,113  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 01:03:27,116  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 01:03:27,137  INFO [main] UsersPageTest:128 - ***************** Delete existing user test *********************
+2021-06-01 01:03:27,249  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 01:03:27,529  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 01:03:27,663  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:03:28,935  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 01:03:29,080  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 01:03:29,329  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 01:03:29,573  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 01:03:29,793  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 01:03:29,793  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 01:03:29,923  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 01:03:30,064  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 01:03:30,159  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 01:03:30,259  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 01:03:30,383  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (34b4cfec8838b09ee89a432aa6304ebc)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:06:25,849  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 01:06:45,461  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 01:06:45,463  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 01:06:45,479  INFO [main] UsersPageTest:128 - ***************** Delete existing user test *********************
+2021-06-01 01:06:45,580  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 01:06:45,864  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 01:06:45,994  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:06:47,412  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 01:06:47,627  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 01:06:47,828  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 01:06:48,029  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 01:06:48,328  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 01:06:48,329  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 01:06:48,464  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 01:06:48,567  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 01:06:48,662  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 01:06:48,863  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 01:06:48,967  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (7fc3a967381da11ebc263c4162166a90)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:08:30,752  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 01:08:51,752  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 01:08:51,759  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 01:08:51,778  INFO [main] UsersPageTest:128 - ***************** Delete existing user test *********************
+2021-06-01 01:08:51,873  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 01:08:52,132  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 01:08:52,348  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:08:53,637  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 01:08:53,839  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 01:08:54,040  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 01:08:54,240  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 01:08:54,422  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 01:08:54,422  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 01:08:54,473  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 01:08:54,602  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 01:08:54,806  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 01:08:54,958  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 01:08:55,190  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (f9f774545d5beeb65d419e606767b6c4)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 01:11:04,447  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 01:11:21,837  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 01:11:21,841  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 01:11:21,864  INFO [main] UsersPageTest:128 - ***************** Delete existing user test *********************
+2021-06-01 01:11:21,959  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 01:11:22,150  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 01:11:22,389  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:11:23,667  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 01:11:23,815  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 01:11:23,978  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 01:11:24,124  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 01:11:24,310  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 01:11:24,311  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 01:11:24,368  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 01:11:24,475  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 01:11:24,594  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 01:11:24,710  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 01:11:44,842  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:61646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd3fcc53c6f318ce66b8dcb0fccd7829
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 01:11:44,842  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 01:11:44,887  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 01:11:45,049  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:11:46,279  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fd3fcc53c6f318ce66b8dcb0fccd7829)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 01:15:48,974  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 01:16:05,706  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 01:16:05,712  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 01:16:05,733  INFO [main] UsersPageTest:128 - ***************** Delete existing user test *********************
+2021-06-01 01:16:05,838  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 01:16:06,176  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 01:16:06,310  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:16:07,646  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 01:16:07,797  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 01:16:07,977  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 01:16:08,107  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 01:16:08,312  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-01 01:16:08,313  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 01:16:08,358  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 01:16:08,460  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 01:16:08,607  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 01:16:08,724  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 01:16:28,845  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="/Content/images/btn-menu-open2.png"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:211:b0dd:c5e3:b1e5:471f:6d76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:61708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e177d6d69fee4610756f2ff72f1656d3
+*** Element info: {Using=xpath, value=//img[@src="/Content/images/btn-menu-open2.png"]}
+2021-06-01 01:16:28,845  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 01:16:28,891  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 01:16:29,065  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 01:16:30,370  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (e177d6d69fee4610756f2ff72f1656d3)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-01 10:51:40,372  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 10:51:56,820  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 10:51:56,825  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 10:51:56,990  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 10:51:57,376  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 10:51:57,525  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 10:51:58,907  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 10:51:59,033  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 10:51:59,240  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 10:51:59,515  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 10:51:59,818  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 10:51:59,956  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 10:52:00,083  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 10:52:00,209  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (d123de186a8e46e5ca6190d39f6a2f0b)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 10:52:00,523  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-06-01 10:52:00,524  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-06-01 10:52:00,533 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:51:27 02/06/2021 IST)
+2021-06-01 10:52:00,533  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-06-01 10:52:00,542 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-06-01 10:52:00,544  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-06-01 10:52:09,591  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 10:52:32,328  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 10:52:32,330  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 10:52:32,396  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 10:52:32,616  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 10:52:32,883  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 10:52:34,286  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 10:52:34,510  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 10:52:34,709  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 10:52:34,975  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 10:52:35,283  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 10:52:35,411  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 10:52:35,557  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 10:52:35,683  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (396e548a1c79f7ce1ca329fec1d02e29)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 10:52:35,977  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-06-01 10:52:35,979  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-06-01 10:52:35,987 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:51:27 02/06/2021 IST)
+2021-06-01 10:52:35,988  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-06-01 10:52:35,994 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-06-01 10:52:35,995  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-06-01 10:52:55,244  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 10:53:10,932  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 10:53:10,934  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 10:53:10,995  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 10:53:11,144  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 10:53:11,427  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 10:53:13,350  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 10:53:13,439  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	false
+2021-06-01 10:53:13,439  INFO [main] CommonActions:165 - Element is not present and unable to send the data to element.
+2021-06-01 10:53:13,476  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	false
+2021-06-01 10:53:13,476  INFO [main] CommonActions:165 - Element is not present and unable to send the data to element.
+2021-06-01 10:53:13,536  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	false
+2021-06-01 10:53:13,536  INFO [main] CommonActions:165 - Element is not present and unable to send the data to element.
+2021-06-01 10:53:13,572  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	false
+2021-06-01 10:53:13,573  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 10:53:13,610  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //label[@for="isAdmin"]] present on UI is:	false
+2021-06-01 10:53:13,610  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 10:53:13,651  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	false
+2021-06-01 10:53:13,652  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 10:53:13,701  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (6a0187f1c40d205049c6de920cb8df3d)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	false
+2021-06-01 10:53:13,701  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 10:53:13,844  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-06-01 10:53:13,845  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-06-01 10:53:13,849 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:51:27 02/06/2021 IST)
+2021-06-01 10:53:13,850  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-06-01 10:53:13,855 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-06-01 10:53:13,856  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-06-01 10:53:23,091  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 10:53:43,108  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 10:53:43,111  INFO [main] HomePage:134 - Initialized page factory of Users Page.
+2021-06-01 10:53:43,184  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 10:53:43,401  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 10:53:43,650  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 10:53:45,065  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //button[@class="btn btn-primary btn-title-container has-tooltip"]] present on UI is:	true
+2021-06-01 10:53:45,247  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //input[@type="text" and @placeholder="First Name"]] present on UI is:	true
+2021-06-01 10:53:45,452  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //input[@type="text" and @placeholder="Last Name"]] present on UI is:	true
+2021-06-01 10:53:45,785  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //input[@type="email" and @placeholder="Email"]] present on UI is:	true
+2021-06-01 10:53:45,970  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //a[@data-toggle="tab" and @href="#roles"]] present on UI is:	true
+2021-06-01 10:53:46,106  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //label[@for="isAdmin"]] present on UI is:	true
+2021-06-01 10:53:46,216  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //label[@for="isSuperUser"]] present on UI is:	true
+2021-06-01 10:53:46,330  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (a7d58f1749db7ea5d2fd7351b1ab7cf6)] -> xpath: //div[@class="modal-footer"]//button[contains(text(),"Save") ]] present on UI is:	true
+2021-06-01 10:53:46,666  INFO [main] WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-06-01 10:53:46,666  INFO [main] WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-06-01 10:53:46,672 DEBUG [main] ResolutionCache:183 - Resolution chrome=90 in cache (valid until 10:51:27 02/06/2021 IST)
+2021-06-01 10:53:46,673  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-06-01 10:53:46,680 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
+2021-06-01 10:53:46,681  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver

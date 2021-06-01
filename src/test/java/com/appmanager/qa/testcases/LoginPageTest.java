@@ -49,7 +49,7 @@ public class LoginPageTest extends TestBase {
 
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("invalidPassword"));
 		String loginError = loginPage.errorMessage();
-		Assert.assertEquals(loginError,"Invalid login attempt.");
+		Assert.assertEquals(loginError,"Invalid login attempt..");
 		log.info(loginError);
 
 	}

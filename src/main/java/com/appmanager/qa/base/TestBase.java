@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -60,9 +62,13 @@ public class TestBase {
 
 }
 	public void takeScreenShot() {
+
+
+		SimpleDateFormat formatter = new SimpleDateFormat("MM_dd_yyyy_hh_mm");
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(scrFile, new File("/Users/tushar/Automation/appmanager/test-output/FailedTestScreenShots/FailedTestScreen.jpg"));
+			FileUtils.copyFile(scrFile, new File("/Users/tushar/Automation/appmanager/test-output/FailedTestScreenShots/"+
+					formatter.format(new Date()) + "_FailedTestScreen.jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Exception occurred when copying screenshot to folder.");

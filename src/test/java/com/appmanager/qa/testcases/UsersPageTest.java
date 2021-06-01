@@ -14,6 +14,7 @@ import com.appmanager.qa.util.TestUtil;
 import com.appmanager.qa.pages.LoginPage;
 import com.relevantcodes.extentreports.ExtentTest;
 
+import java.util.Collections;
 import java.util.List;
 
 public class UsersPageTest extends TestBase {
@@ -102,25 +103,64 @@ public class UsersPageTest extends TestBase {
 	}
 
 
+	@Test(priority = 7)
+	public void verifyEditUserFunctionality(){
+		log.info("***************** Edit existing user test *********************");
+		usersPage.editExistingUser();
+		String s1 = "anupl@gmail.com";
+		List<WebElement> usernames = usersPage.allPresentUsernames();
+		try{
+			for (int i = 0; i < usernames.size(); i++) {
+				if (usernames.get(i).getText().equals(s1)) {
+					System.out.println("User Edit and Update successfully");
+				}
+			}
 
 
+		}catch (Throwable e) {
+			System.out.println(e);
+		}
+
+	}
+
+	@Test(priority =8)
+	public void verifyDeleteUserFunctionality(){
+		log.info("***************** Delete existing user test *********************");
+		usersPage.deleteUser();
+		String s1 = "alohaqa7@gmail.com";
+		List<WebElement> usernames = usersPage.allPresentUsernames();
+		usernames.contains(s1);
+		try{
+				if (usernames.contains(s1)) {
+					System.out.println("User is not getting deleted ");
+				}
+				else{
+					System.out.println("User deleted successfully");
+
+				}
 
 
+		}catch (Throwable e) {
+			System.out.println(e);
+		}
 
-		
-//	@DataProvider
-//	public Object[][] getUsersData() {
-//
-//		Object data[][] = TestUtil.getTestData("users");
-//		return data;
-//	}
-//
-//	@Test(priority=3, dataProvider = "getUsersData")
-//	public void verifyInviteMultipleUsersTest(String firstname, String lastname, String emailaddress) {
-//
-//		usersPage.inviteMultipeUser(firstname, lastname, emailaddress);
-//
-//	}
+
+	}
+
+
+	@DataProvider
+	public Object[][] getUsersData() {
+
+		Object data[][] = TestUtil.getTestData("users");
+		return data;
+	}
+
+	@Test(priority=9, dataProvider = "getUsersData")
+	public void verifyInviteMultipleUsersTest(String firstname, String lastname, String emailaddress) {
+
+		usersPage.inviteMultipeUser(firstname, lastname, emailaddress);
+
+	}
 	
 	@AfterMethod
 	
