@@ -161,7 +161,19 @@ public class UsersPageTest extends TestBase {
 		usersPage.inviteMultipeUser(firstname, lastname, emailaddress);
 
 	}
-	
+
+
+	@Test(priority = 10)
+	public void verifyColumnsSorting(){
+
+		usersPage.sortingColumns();
+	}
+
+	@Test(priority = 11)
+	public void verifySearchWithLockedUser(){
+		boolean value = usersPage.searchLockedUser();
+		Assert.assertEquals(true,value,"Not able to search locked user");
+	}
 	@AfterMethod
 	
 		public void teardown() {

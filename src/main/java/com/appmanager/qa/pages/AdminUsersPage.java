@@ -72,6 +72,9 @@ public class AdminUsersPage extends TestBase {
 	@FindBy(xpath = "//button[@id=\"roleDropdown\"]")
 	WebElement filterByRole;
 
+	@FindBy(xpath = "//input[@id=\"customCheck1\"]")
+	WebElement lockedUserCheckbox;
+
 	@FindAll(@FindBy(xpath = "//div[@class=\"dropdown-menu show\"]//a"))
 	List<WebElement> getFilterByRole;
 
@@ -89,6 +92,10 @@ public class AdminUsersPage extends TestBase {
 
 	@FindBy(xpath = "//tr//td[3]")
 	WebElement roleValue;
+
+	@FindAll(@FindBy(xpath = "//tr//th//a//i[@class=\"fa fa-sort color-gray\"]"))
+	List<WebElement> sortIcons;
+
 	//Invite User Form PF:
 	@FindBy(xpath = "//input[@type=\"text\" and @placeholder=\"First Name\"]")
 	WebElement firstNameText;
@@ -174,9 +181,9 @@ public class AdminUsersPage extends TestBase {
 		commonActions.click(settingsTab);
 		commonActions.click(userTab);
 		commonActions.click(inviteUserButton);
-		commonActions.enterData(firstNameText, "amit");
-		commonActions.enterData(lastNameText, "mh");
-		commonActions.enterData(email, "alohaqa7@gmail.com");
+		commonActions.enterData(firstNameText, "userK");
+		commonActions.enterData(lastNameText, "AutoTest");
+		commonActions.enterData(email, "user11@autotest.com");
 		commonActions.click(lockCheckbox);
 		commonActions.click(rolesTab);
 		commonActions.click(checkboxAdmin);
@@ -343,8 +350,52 @@ public class AdminUsersPage extends TestBase {
 			e.printStackTrace();
 		}
 
+	}
+
+	public void sortingColumns(){
+		commonActions.click(expandCollapseIcon);
+		commonActions.click(settingsTab);
+		commonActions.click(userTab);
+		commonActions.waitUntilElementToBeClickable(driver,10,usernameField);
+		List<WebElement> options = sortIcons;
+		for(WebElement element:options){
+			commonActions.waitUntilElementToBeClickable(driver,10,usernameField);
+			commonActions.click(element);
+		}
+
 
 	}
+
+	public boolean searchLockedUser(){
+		commonActions.click(expandCollapseIcon);
+		commonActions.click(settingsTab);
+		commonActions.click(userTab);
+		commonActions.waitUntilElementToBeClickable(driver,3,lockedUserCheckbox);
+		commonActions.click(lockedUserCheckbox);
+		commonActions.click(searchButton);
+		commonActions.waitUntilElementToBeClickable(driver,3,actionButton);
+		if (commonActions.isElementEnabled(actionButton)){
+			commonActions.click(actionButton);
+			List<WebElement> options = actionDropdownItems;
+			for (int i = 0; i <= options.size(); i++) {
+
+				if (options.get(i).getText().contains("Settings")) {
+					options.get(i).click();
+					return commonActions.isElementPresent(lockCheckbox);
+
+				}
+			}
+			try {
+				browserHelper.wait(2000);
+			} catch (Throwable e) {
+				e.printStackTrace();
+			}
+
+		}
+
+		return false;
+	}
+
 
 }
 

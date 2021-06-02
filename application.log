@@ -7994,3 +7994,134 @@ Session ID: e177d6d69fee4610756f2ff72f1656d3
 2021-06-01 10:53:46,673  INFO [main] WebDriverManager:571 - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
 2021-06-01 10:53:46,680 DEBUG [main] WebDriverManager:520 - Driver chromedriver 90.0.4430.24 found in cache
 2021-06-01 10:53:46,681  INFO [main] WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/tushar/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-06-01 11:09:10,971  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 21:06:28,501  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 21:06:50,493  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 21:06:50,500  INFO [main] HomePage:138 - Initialized page factory of Users Page.
+2021-06-01 21:06:50,951  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (77ef5e355e51ca004e4f2037dc612fc9)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 21:06:51,348  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (77ef5e355e51ca004e4f2037dc612fc9)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 21:06:51,517  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (77ef5e355e51ca004e4f2037dc612fc9)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 21:06:53,898  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (77ef5e355e51ca004e4f2037dc612fc9)] -> xpath: //tr//th//a] present on UI is:	true
+2021-06-01 21:06:54,140  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:64310}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 77ef5e355e51ca004e4f2037dc612fc9
+2021-06-01 21:06:54,157  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:06:54,261  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:64310}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 77ef5e355e51ca004e4f2037dc612fc9
+2021-06-01 21:06:54,263  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:06:54,301  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:64310}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 77ef5e355e51ca004e4f2037dc612fc9
+2021-06-01 21:06:54,302  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:12:25,064  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 21:12:48,710  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 21:12:48,720  INFO [main] HomePage:138 - Initialized page factory of Users Page.
+2021-06-01 21:12:48,873  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (68c296b17ff5854a71d3ac2cb1f5440e)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 21:12:49,280  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (68c296b17ff5854a71d3ac2cb1f5440e)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 21:12:49,457  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (68c296b17ff5854a71d3ac2cb1f5440e)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 21:12:51,586  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (68c296b17ff5854a71d3ac2cb1f5440e)] -> xpath: //tr//th//a] present on UI is:	true
+2021-06-01 21:12:52,123  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:49382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68c296b17ff5854a71d3ac2cb1f5440e
+2021-06-01 21:12:52,125  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:12:52,173  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:49382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68c296b17ff5854a71d3ac2cb1f5440e
+2021-06-01 21:12:52,173  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:12:52,216  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:49382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68c296b17ff5854a71d3ac2cb1f5440e
+2021-06-01 21:12:52,217  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:17:44,741  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 21:18:23,758  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 21:18:23,766  INFO [main] HomePage:138 - Initialized page factory of Users Page.
+2021-06-01 21:18:23,887  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa97f016edd0251562a2e455c85f759c)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 21:18:24,238  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa97f016edd0251562a2e455c85f759c)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 21:18:24,387  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa97f016edd0251562a2e455c85f759c)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 21:18:26,590  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (fa97f016edd0251562a2e455c85f759c)] -> xpath: //tr//th//a//i[@class="fa fa-sort color-gray"]] present on UI is:	true
+2021-06-01 21:18:27,099  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:50688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa97f016edd0251562a2e455c85f759c
+2021-06-01 21:18:27,099  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:18:27,148  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:50688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa97f016edd0251562a2e455c85f759c
+2021-06-01 21:18:27,149  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:23:08,081  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-01 21:23:47,398  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-01 21:23:47,409  INFO [main] HomePage:138 - Initialized page factory of Users Page.
+2021-06-01 21:23:47,564  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (848081a8bee20ed52678588cd6f87652)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-01 21:23:47,951  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (848081a8bee20ed52678588cd6f87652)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-01 21:23:48,134  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (848081a8bee20ed52678588cd6f87652)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-01 21:23:51,167  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (848081a8bee20ed52678588cd6f87652)] -> xpath: //tr//th//a//i[@class="fa fa-sort color-gray"]] present on UI is:	true
+2021-06-01 21:23:51,804  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:52052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 848081a8bee20ed52678588cd6f87652
+2021-06-01 21:23:51,805  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-01 21:23:51,901  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2086:93d1:5d72:1285:e53d:a981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:52052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 848081a8bee20ed52678588cd6f87652
+2021-06-01 21:23:51,901  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-02 20:00:36,333  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-06-02 20:01:34,010  INFO [main] HomePage:60 - Initialized page factory of Home Page.
+2021-06-02 20:01:34,015  INFO [main] HomePage:141 - Initialized page factory of Users Page.
+2021-06-02 20:01:34,143  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4d4343b01169cf0eda79aaf042889dda)] -> xpath: //img[@src="/Content/images/btn-menu-open2.png"]] present on UI is:	true
+2021-06-02 20:01:34,395  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4d4343b01169cf0eda79aaf042889dda)] -> xpath: //div[@class="left-nav"]//ul//li[@id="settingsDropdown"]] present on UI is:	true
+2021-06-02 20:01:34,616  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4d4343b01169cf0eda79aaf042889dda)] -> xpath: //li[@id="ddItemUser"]] present on UI is:	true
+2021-06-02 20:01:36,770  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4d4343b01169cf0eda79aaf042889dda)] -> xpath: //input[@id="customCheck1"]] present on UI is:	false
+2021-06-02 20:01:36,770  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-06-02 20:01:36,814  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4d4343b01169cf0eda79aaf042889dda)] -> xpath: //button[@type="button" and text()="Search"]] present on UI is:	true
+2021-06-02 20:01:36,957  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4d4343b01169cf0eda79aaf042889dda)] -> xpath: //div[@class="dropdown"]//button[@id="actionDropdown"]] present on UI is:	true
+2021-06-02 20:01:37,297  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (4d4343b01169cf0eda79aaf042889dda)] -> xpath: //input[@id="isLockoutEnabled" and @type="checkbox"]] present on UI is:	false
+2021-06-02 20:05:07,688  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
